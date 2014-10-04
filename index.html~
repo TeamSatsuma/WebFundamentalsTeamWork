@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>ЧистачУни - CleanerUni</title>
+    <link href="css/normalize.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="wrapper">
+        <header id="mainHeader" class="clearfix">
+            <div id="mainLogo">
+                <img id="emigrant-uni-logo" src="img/logo.png" alt="Emigrant University" />
+            </div>
+            <nav id="mainNav">
+                <ul id="nav" class="clearfix">
+                    <li>
+                        <a href="#">
+                            Начало
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Новини
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            За университета
+                        </a>
+                        <ul>
+                        	<li>
+                        		<a href="#">Обща информация</a>
+                        	</li>
+									<li>
+										<a href="#">Преподаватели</a>
+									</li>
+                        	<li>
+                        		<a href="#">Асистенти</a>
+                        	</li>
+                        </ul>	
+                    </li>
+                    <li>
+                        <a href="#">
+                            Обучения
+                        </a>
+                        	<ul>
+	                        	<li>
+	                        		<a href="#">Професии</a>
+	                        	</li>
+										<li>
+											<a href="#">Fast track курсове</a>
+										</li>
+									</ul>	
+                    </li>
+                    <li>
+                        <a href="#">
+                            Работа
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Партньори
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Контакти
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <section id="mainSection">
+            <header>
+                <h1>
+                    Добре дошли в сайта на ЧистачУни!
+                </h1>
+            </header>
+            <article>
+                <h2>
+                    First article's h2
+                </h2>
+                <p>
+                    First articles big big text for testing our html and css. This text is really long dont read it. First articles big big text for testing our html and css. This text is really long dont read it.
+                    First articles big big text for testing our html and css. This text is really long dont read it. First articles big big text for testing our html and css. This text is really long dont read it.
+                    First articles big big text for testing our html and css. This text is really long dont read it. First articles big big text for testing our html and css. This text is really long dont read it.
+
+                </p>
+            </article>
+            <article>
+                <h2>
+                    Second article's h2
+                </h2>
+                <p>
+                    First articles big big text for testing our html and css. This text is really long dont read it. First articles big big text for testing our html and css. This text is really long dont read it.
+                    First articles big big text for testing our html and css. This text is really long dont read it. First articles big big text for testing our html and css. This text is really long dont read it.
+                    First articles big big text for testing our html and css. This text is really long dont read it. First articles big big text for testing our html and css. This text is really long dont read it.
+
+                </p>
+            </article>
+        </section>
+        <footer id="mainFooter">
+            <p>
+                Some testimonials here. Maybe social media buttons.
+            </p>
+            <span>
+                CleanerUni &#169; 2014
+            </span>
+        </footer>
+    </div>
+</body>
+</html>
