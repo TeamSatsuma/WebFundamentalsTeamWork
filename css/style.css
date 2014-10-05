@@ -136,3 +136,10 @@ nav ul ul {
     width: 40px;
     height: 40px;
 }
+
+#quote {
+    font-style: italic;
+    font-size: 16pt;
+    margin-left: 500px;
+    color: #ff4200;
+}
