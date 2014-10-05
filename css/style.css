@@ -95,6 +95,14 @@ nav ul ul {
     border-radius: 10px;
     padding: 10px 10px;
 }
+
+#searchSection {
+    background: #ffffff;
+
+    border-radius: 10px;
+    padding: 10px 10px;
+}
+
 #mainFooter {
     background: #8F9CAC;
 }
@@ -115,4 +123,16 @@ nav ul ul {
     background-color: #b0bdcd;
     border: 0;
     border-radius: 5px;
+}
+
+#cursing {
+    margin-left: 20px;
+    color: #576169;
+}
+
+#waitingGif {
+    vertical-align: bottom;
+    margin-left: 20px;
+    width: 40px;
+    height: 40px;
 }
