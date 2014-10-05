@@ -103,3 +103,16 @@ nav ul ul {
     display: block;
     clear: both;
 }
+
+#searchBox {
+    float: right;
+    background-color: #8F9CAC;
+    margin-right: 80px;
+    border: 0;
+}
+
+#searchField, button{
+    background-color: #b0bdcd;
+    border: 0;
+    border-radius: 5px;
+}
