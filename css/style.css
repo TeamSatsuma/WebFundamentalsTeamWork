@@ -125,6 +125,10 @@ nav ul ul {
     border-radius: 5px;
 }
 
+#searchField:focus {
+    color: transparent;
+}
+
 #cursing {
     margin-left: 20px;
     color: #576169;
@@ -142,4 +146,14 @@ nav ul ul {
     font-size: 16pt;
     margin-left: 500px;
     color: #ff4200;
+}
+
+#satsumaMission {
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 5px;
+    opacity: 0.9;
+    box-shadow: 5px 5px 5px #696969;
 }
