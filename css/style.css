@@ -157,9 +157,21 @@ nav ul ul {
     float: left;
     margin-right: 20px;
     margin-top: 2px;
-    border-radius: 5px;
+    border-radius: 10px;
     opacity: 0.9;
     box-shadow: 5px 5px 5px #696969;
+}
+
+#competitorsImage
+{
+    width: 200px;
+    height: 200px;
+    float: right;
+    margin-right: 10px;
+    margin-left: 15px;
+    border-radius: 20px;
+    opacity: 0.9;
+    box-shadow: 0px 0px 15px #373737;
 }
 
 #footerLink, h2 {
