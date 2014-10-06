@@ -7,6 +7,9 @@ body {
     margin: 0 auto;
     background: #8F9CAC;
     padding: 15px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 5px 10px #696969;
 }
 #mainHeader {
     height: 90px;
