@@ -145,7 +145,7 @@ nav ul ul {
     font-style: italic;
     font-size: 16pt;
     margin-left: 500px;
-    color: #ff4200;
+    color: #cd3500;
 }
 
 #satsumaMission {
@@ -156,4 +156,8 @@ nav ul ul {
     border-radius: 5px;
     opacity: 0.9;
     box-shadow: 5px 5px 5px #696969;
+}
+
+#footerLink, h2 {
+    color: #912900;
 }
