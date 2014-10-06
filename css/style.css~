@@ -18,7 +18,7 @@ body {
 #mainLogo {
     width: 20%;
     float: left;
-    margin-top: 15px;
+    margin-top: 10px;
 }
 
 #emigrant-uni-logo {
@@ -95,6 +95,14 @@ nav ul ul {
     border-radius: 10px;
     padding: 10px 10px;
 }
+
+#searchSection {
+    background: #ffffff;
+
+    border-radius: 10px;
+    padding: 10px 10px;
+}
+
 #mainFooter {
     background: #8F9CAC;
 }
@@ -103,3 +111,37 @@ nav ul ul {
     display: block;
     clear: both;
 }
+
+#searchBox {
+    float: right;
+    background-color: #8F9CAC;
+    margin-right: 80px;
+    border: 0;
+}
+
+#searchField, button{
+    background-color: #D9D9D9;
+    border: 0;
+    border-radius: 5px;
+}
+
+#cursing {
+    margin-left: 20px;
+    color: #576169;
+}
+
+#waitingGif {
+    vertical-align: bottom;
+    margin-left: 20px;
+    width: 40px;
+    height: 40px;
+}
+
+#quote {
+    font-style: italic;
+    font-size: 16pt;
+    margin-left: 500px;
+    color: #ff4200;
+}
+
+ form { background-color: black; } 

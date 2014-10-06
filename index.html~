@@ -2,12 +2,21 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>ЧистачУни - CleanerUni</title>
+    <title>Emigrant UNIVERSITY</title>
     <link href="css/normalize.css" rel="stylesheet" />
     <link href="css/style.css" rel="stylesheet" />
 </head>
 <body>
+
     <div id="wrapper">
+
+        <form action="searchPage/searchPage.html" >
+        <div id="searchBox">
+            <input id="searchField" type="text"/>
+            <button>GO</button>
+        </div>
+        </form>
+
         <header id="mainHeader" class="clearfix">
             <div id="mainLogo">
                 <img id="emigrant-uni-logo" src="img/logo.png" alt="Emigrant University" />
@@ -70,7 +79,11 @@
                     </li>
                 </ul>
             </nav>
+
         </header>
+
+
+
         <section id="mainSection">
             <header>
                 <h1>
@@ -102,10 +115,10 @@
         </section>
         <footer id="mainFooter">
             <p>
-                Some testimonials here. Maybe social media buttons.
+                Този сайт е направен като екипен проект в <a href="http://softuni.bg" target="_blank">SoftUni</a>. Всичко в него е измислица 
             </p>
             <span>
-                CleanerUni &#169; 2014
+                Emigrant UNIVERSITY &#169; 2014
             </span>
         </footer>
     </div>
