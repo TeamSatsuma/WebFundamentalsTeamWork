@@ -126,7 +126,7 @@ nav ul ul {
 }
 
 #searchField:focus {
-    color: transparent;
+    background-color: #D9D9D9;
 }
 
 #cursing {
