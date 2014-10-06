@@ -10,7 +10,7 @@
 
     <div id="wrapper">
 
-        <form action="searchPage/searchPage.html" >
+        <form action="searchPage/searchPage.html" class="clearfix">
         <div id="searchBox">
             <input id="searchField" type="text"/>
             <button>GO</button>
