@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Emigrant UNIVERSITY</title>
+    <link href="../css/normalize.css" rel="stylesheet" />
+    <link href="../css/style.css" rel="stylesheet" />
+</head>
+<body>
+
+<div id="wrapper">
+
+    <form action="search/searchPage.html" class="clearfix">
+        <div id="searchBox">
+            <input id="searchField" type="text" placeholder="Търсене..."/>
+            <button>GO</button>
+        </div>
+    </form>
+
+    <header id="mainHeader" class="clearfix">
+        <div id="mainLogo">
+            <img id="emigrant-uni-logo" src="../img/logo.png" alt="Emigrant University" />
+        </div>
+        <nav id="mainNav">
+            <ul id="nav" class="clearfix">
+                <li>
+                    <a href="../index.html">
+                        Начало
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Новини
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        За университета
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="#">Обща информация</a>
+                        </li>
+                        <li>
+                            <a href="#">Преподаватели</a>
+                        </li>
+                        <li>
+                            <a href="#">Асистенти</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">
+                        Обучения
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="#">Професии</a>
+                        </li>
+                        <li>
+                            <a href="#">Fast track курсове</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">
+                        Работа
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Партньори
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Контакти
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+
+
+
+    <section id="searchSection">
+        <header>
+            <h1>
+                <img id="waitingGif" src="../img/waiting.gif" alt="Please wait"/>
+                <span id="cursing">
+                    Чакаме, псуваме; чакаме, псуваме... Редуваме!
+                </span>
+            </h1>
+            <span id="quote">
+                -- Ницше... ъъъ... Наков
+            </span>
+
+        </header>
+
+    </section>
+    <footer id="mainFooter">
+        <p>
+            Този сайт е направен като екипен проект в <a id="footerLink" href="http://softuni.bg" target="_blank">SoftUni</a>. Всичко в него е измислица и няма връзка с реалността. Или почти няма.
+        </p>
+            <span>
+                Emigrant UNIVERSITY &#169; 2014
+            </span>
+    </footer>
+</div>
+</body>
+</html>
