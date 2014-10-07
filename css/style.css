@@ -1,7 +1,12 @@
 /* CSS Style for desktops > 1200px */
 body {
-    font-size: 14px;
+    font-size: 12px;
 }
+
+p {
+	color: #3D3C3A;
+}
+
 #wrapper {
     width: 1140px;
     margin: 0 auto;
@@ -31,7 +36,7 @@ body {
 #mainNav {
     width: 80%;
     float: right;
-    font-size: 16px;
+    font-size: 14px;
     vertical-align: bottom;
 }
 
@@ -100,7 +105,14 @@ nav ul ul {
 			}
 /* Navigation menu behaviour - end */
 
-#mainSection {
+section {
+    background: #DDD4BC;
+	     
+    border-radius: 10px;
+    padding: 10px 10px;
+}
+
+article {
     background: #DDD4BC;
 	     
     border-radius: 10px;
@@ -187,6 +199,18 @@ nav ul ul {
     color: #912900;
 }
 
-p {
+/* class="page-list" -> all lists used over the website */
+.page-list {
 	color: #3D3C3A;
+	font-style: italic;
 }
+
+/* Images floated left or right */
+.align-right { 
+	float:right; margin: 0 0 15px 15px; 
+}
+.align-left { 
+	float:left; margin: 0 15px 15px 0; 
+}
+
+#fast-track-h2 {text-align: right;}
