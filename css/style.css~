@@ -22,7 +22,6 @@ p {
     border-radius: 10px;
     margin-bottom: 20px;
     padding: 10px 10px;
-    float: right;
 }
 #mainLogo {
     width: 20%;
