@@ -10,7 +10,11 @@ p {
 #wrapper {
     width: 1140px;
     margin: 0 auto;
-    background: #EC583A;
+	background: linear-gradient(top, #DA8E7E 0%, #EC583A 100%);
+	background: -moz-linear-gradient(top, #DA8E7E 0%, #EC583A 100%); 
+	background: -webkit-linear-gradient(top, #DA8E7E 0%,#EC583A 100%);
+	background: -webkit-linear-gradient(top, #DA8E7E 0%,#EC583A 100%);
+	background: -webkit-linear-gradient(top, #DA8E7E 0%,#EC583A 100%);
     padding: 15px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -18,7 +22,10 @@ p {
 }
 #mainHeader {
     height: 90px;
+    background-color: rba(255, 255, 255, 0);
+    /*
     background-color: #EC583A;
+    */
     border-radius: 10px;
     margin-bottom: 20px;
     padding: 10px 10px;
@@ -127,7 +134,7 @@ nav ul ul {
 }
 
 #mainFooter {
-    background: #EC583A;
+    background-color: rba(255, 255, 255, 0);
 }
 .clearfix:after {
     content: '';
