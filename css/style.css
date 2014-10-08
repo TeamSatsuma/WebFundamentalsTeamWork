@@ -105,18 +105,19 @@ nav ul ul {
 			}
 /* Navigation menu behaviour - end */
 
-section {
-    background: #DDD4BC;
-	     
+#mainSection {
     border-radius: 10px;
     padding: 10px 10px;
 }
 
-article {
+#mainSection article {
     background: #DDD4BC;
-	     
     border-radius: 10px;
     padding: 10px 10px;
+    margin-bottom: 15px;
+}
+#mainSectin article:last-of-type {
+	margin-bottom: 0px;
 }
 
 #searchSection {
