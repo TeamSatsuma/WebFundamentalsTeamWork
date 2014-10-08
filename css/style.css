@@ -10,11 +10,7 @@ p {
 #wrapper {
     width: 1140px;
     margin: 0 auto;
-	background: linear-gradient(top, #DA8E7E 0%, #EC583A 100%);
-	background: -moz-linear-gradient(top, #DA8E7E 0%, #EC583A 100%); 
-	background: -webkit-linear-gradient(top, #DA8E7E 0%,#EC583A 100%);
-	background: -webkit-linear-gradient(top, #DA8E7E 0%,#EC583A 100%);
-	background: -webkit-linear-gradient(top, #DA8E7E 0%,#EC583A 100%);
+	background-color: #FFF2E7;
     padding: 15px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -55,7 +51,7 @@ nav ul ul {
 		display: block;
 	}
 nav ul {
-	background: #DDD4BC;
+	background: #DE8642;
 	/*
 	background: linear-gradient(top, #707070 0%, #3D3C3A 100%);
 	background: -moz-linear-gradient(top, #707070 0%, #3D3C3A 100%); 
@@ -77,7 +73,7 @@ nav ul li {
 	float: left;
 }
 	nav ul li:hover {
-		background: #3D3C3A;
+		background: #4B4D52;
 		/*
 		background: linear-gradient(top, #4f5964 0%, #5f6975 40%);
 		background: -moz-linear-gradient(top, #4f5964 0%, #5f6975 40%);
@@ -85,11 +81,11 @@ nav ul li {
 		*/
 	}
 		nav ul li:hover a {
-			color: #DDD4BC;
+			color: #FFF2E7;
 		}
 nav ul li a {
 	display: block; padding: 15px 20px;
-	color: #3D3C3A; text-decoration: none;
+	color: #4B4D52; text-decoration: none;
 }
 nav ul ul {
 	background: #3D3C3A; border-radius: 0px; padding 0;
@@ -105,10 +101,10 @@ nav ul ul {
 	}
 		nav ul ul li a {
 			padding: 15px 40px;
-			color: #DDD4BC;
+			color: #FFF2E7;
 		}
 			nav ul ul li a:hover {
-				background: #707070;
+				background: #4B4D52;
 			}
 /* Navigation menu behaviour - end */
 
@@ -118,7 +114,8 @@ nav ul ul {
 }
 
 #mainSection article {
-    background: #DDD4BC;
+    background: #FFF3E7;
+    border: 3px solid #DE8642;
     border-radius: 10px;
     padding: 10px 10px;
     margin-bottom: 15px;
@@ -128,7 +125,7 @@ nav ul ul {
 }
 
 #searchSection {
-    background: #DDD4BC;
+    background: #FFF3E7;
     border-radius: 10px;
     padding: 10px 10px;
 }
@@ -144,7 +141,8 @@ nav ul ul {
 
 #searchBox {
     float: right;
-    background-color: #DDD4BC;
+    background-color: #FFF2E7;
+    border: 2px solid #DE8642;
     margin-right: 80px;
     border-radius: 5px;
     padding: 2px;
@@ -158,7 +156,7 @@ nav ul ul {
 }
 
 #searchField:focus {
-    background-color: #DDD4BC;
+    background-color: #FFF2E7;
 }
 
 #cursing {
