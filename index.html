@@ -6,21 +6,18 @@
     <link href="css/normalize.css" rel="stylesheet" />
     <link href="css/style.css" rel="stylesheet" />
 </head>
-<body>
-
-    <div id="wrapper">
-
-        <form action="searchPage.html" class="clearfix">
-        <div id="searchBox">
-            <input id="searchField" type="text" placeholder="Търсене..."/>
-            <button>GO</button>
-        </div>
-        </form>
-
-        <header id="mainHeader" class="clearfix">
+<body class="indexPage">
+    <header id="mainHeader" class="clearfix">
+        <div class="wrapper">
+            <form action="searchPage.html" class="clearfix">
+                <div id="searchBox">
+                    <input id="searchField" type="text" placeholder="Търсене..."/>
+                    <button>GO</button>
+                </div>
+            </form>
             <div id="mainLogo">
-            	<a href="index.html">
-               	<img id="emigrant-uni-logo" src="img/logo.png" alt="Emigrant University" />
+                <a href="index.html">
+                <img id="emigrant-uni-logo" src="img/logo.png" alt="Emigrant University" />
                </a>
             </div>
             <nav id="mainNav">
@@ -40,29 +37,29 @@
                             За университета
                         </a>
                         <ul>
-                        	<li>
-                        		<a href="about.html">Обща информация</a>
-                        	</li>
-									<li>
-										<a href="trainers.html">Преподаватели</a>
-									</li>
-                        	<li>
-                        		<a href="assistants.html">Асистенти</a>
-                        	</li>
-                        </ul>	
+                            <li>
+                                <a href="about.html">Обща информация</a>
+                            </li>
+                                    <li>
+                                        <a href="trainers.html">Преподаватели</a>
+                                    </li>
+                            <li>
+                                <a href="assistants.html">Асистенти</a>
+                            </li>
+                        </ul>
                     </li>
                     <li>
                         <a href="education.html">
                             Обучения
                         </a>
-                        	<ul>
-	                        	<li>
-	                        		<a href="education.html">Професии</a>
-	                        	</li>
-										<li>
-											<a href="fast-tracks.html">Fast track курсове</a>
-										</li>
-									</ul>	
+                            <ul>
+                                <li>
+                                    <a href="education.html">Професии</a>
+                                </li>
+                                        <li>
+                                            <a href="fast-tracks.html">Fast track курсове</a>
+                                        </li>
+                                    </ul>
                     </li>
                     <li>
                         <a href="work.html">
@@ -81,12 +78,11 @@
                     </li>
                 </ul>
             </nav>
+        </div>
+    </header>
 
-        </header>
-
-
-
-        <section id="mainSection" class="clearfix">
+    <section id="mainSection" class="clearfix">
+        <div class="wrapper">
             <header>
                 <h1>
                     Добре дошли в сайта на ЧистачУни!
@@ -111,9 +107,9 @@
                     Vim elitr dolorum at. Eu solum rebum exerci qui, imperdiet vituperata ad vis, eum altera voluptatum ea. Dolorum indoctum adolescens cu sea, est laoreet fabellas ex, mea ne commune luptatum. Meis doctus ancillae his et, id pro tation viderer tamquam, est et qualisque concludaturque. An sit vidit errem offendit. Prompta detraxit vis ne. Liber affert petentium ut mel, et hinc exerci dignissim cum.
                 </p>
             </article>
-			
-			<article class="clearfix">
-                <h2 class="right-header">
+
+            <article class="clearfix">
+                <h2>
                     Нашата амбиция
                 </h2>
                 <p>
@@ -121,12 +117,12 @@
                         <img class="align-right" id="satsumaMission" src="img/Chistin.jpg" alt=""/>
                     </span>
                     Чистин Наков: Амбицията ни е да вкарваме 1 000 души на година в хигиенната индустрия Какво се преподава в ЕмигрантУни, какъв е делът на мъжете и в България или в чужбина живее по-добре един чистач?
-					
-					През май 2014 в България стартира първият по рода си Emigrant University. 5 000 кандидати до момента са подали документи, че искат да се обучават в него. 1 500 студенти са учили до момента присъствено и  2 400 онлайн. От тях не всички обаче са успели да се справят с изпитите и продължат напред.  В момента второкурсниците са 400, а първокурсниците – 300.
-					<a href="News.html">
-						Още...
-					</a>
-				</p>
+
+                    През май 2014 в България стартира първият по рода си Emigrant University. 5 000 кандидати до момента са подали документи, че искат да се обучават в него. 1 500 студенти са учили до момента присъствено и  2 400 онлайн. От тях не всички обаче са успели да се справят с изпитите и продължат напред.  В момента второкурсниците са 400, а първокурсниците – 300.
+                    <a href="News.html">
+                        Още...
+                    </a>
+                </p>
             </article>
 
             <article class="clearfix">
@@ -151,15 +147,17 @@
 
 
             </article>
-        </section>
-        <footer id="mainFooter">
+        </div>
+    </section>
+    <footer id="mainFooter">
+        <div class="wrapper">
             <p>
                 Този сайт е направен като екипен проект в <a id="footerLink" href="http://softuni.bg" target="_blank">SoftUni</a>. Всичко в него е измислица и няма връзка с реалността. Или почти няма.
             </p>
             <span>
                 Emigrant UNIVERSITY &#169; 2014
             </span>
-        </footer>
-    </div>
+        </div>
+    </footer>
 </body>
 </html>

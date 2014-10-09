@@ -1,34 +1,22 @@
 /* CSS Style for desktops > 1200px */
 body {
     font-size: 12px;
-    margin-bottom: 5%;
+    background-color: #FFFFFF;
 }
 
 p {
 	color: #3D3C3A;
 }
 
-#wrapper {
+.wrapper {
     width: 1140px;
     margin: 0 auto;
-	background-color: #FFF2E7;
-    padding: 15px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    box-shadow: 0px 5px 10px #696969;
 }
 #mainHeader {
-    height: 90px;
-    background-color: rgba(255, 255, 255, 0);
-    /*
-    background-color: #EC583A;
-    */
-    border-radius: 10px;
-    margin-bottom: 20px;
-    padding: 10px 10px;
+    padding: 10px;
+    border-bottom: 2px solid #D0CABF;
 }
 #mainLogo {
-    width: 20%;
     float: left;
     margin-top: 10px;
 }
@@ -38,8 +26,7 @@ p {
 }
 
 #mainNav {
-    width: 80%;
-    float: right;
+    padding-left:225px;
     font-size: 14px;
     vertical-align: bottom;
 }
@@ -52,7 +39,7 @@ nav ul ul {
 		display: block;
 	}
 nav ul {
-	background: #DE8642;
+	/*background: #DE8642;*/
 	/*
 	background: linear-gradient(top, #707070 0%, #3D3C3A 100%);
 	background: -moz-linear-gradient(top, #707070 0%, #3D3C3A 100%); 
@@ -60,7 +47,7 @@ nav ul {
 	background: -webkit-linear-gradient(top, #707070 0%,#3D3C3A 100%);
 	background: -webkit-linear-gradient(top, #707070 0%,#3D3C3A 100%);
 	*/
-	box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+	/*box-shadow: 0px 0px 9px rgba(0,0,0,0.15);*/
 	padding: 0 20px;
 	border-radius: 10px;
 	list-style: none;
@@ -74,7 +61,7 @@ nav ul li {
 	float: left;
 }
 	nav ul li:hover {
-		background: #4B4D52;
+		background: #B9B1A8;
 		/*
 		background: linear-gradient(top, #4f5964 0%, #5f6975 40%);
 		background: -moz-linear-gradient(top, #4f5964 0%, #5f6975 40%);
@@ -82,34 +69,39 @@ nav ul li {
 		*/
 	}
 		nav ul li:hover a {
-			color: #FFF2E7;
+			color: #FFFFFF;
 		}
 nav ul li a {
 	display: block; padding: 15px 20px;
 	color: #4B4D52; text-decoration: none;
 }
 nav ul ul {
-	background: #3D3C3A; border-radius: 1px; padding: 0;
+	background: #B9B1A8; border-radius: 1px; padding: 0;
 	position: absolute; top: 100%;
-	border-bottom-left-radius: 10px;
-	border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 	nav ul ul li {
 		float: none;
-		border-top: 1px solid #44423C;
-		border-bottom: 1px solid #342F22;
+		border-bottom: 1px solid #D0CABF;
 		position: relative;
 	}
+    nav ul ul li:last-of-type {
+        border-bottom: none;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
 		nav ul ul li a {
 			padding: 15px 40px;
-			color: #FFF2E7;
+			color: #FFFFFF;
 		}
-			nav ul ul li a:hover {
+			nav ul ul li:hover {
 				background: #4B4D52;
 			}
 /* Navigation menu behaviour - end */
 
 #mainSection {
+    background-color: #F6F6F4;
     border-radius: 10px;
     padding: 10px 10px;
 }
@@ -126,12 +118,30 @@ nav ul ul {
     border: 3px solid #DE8642;
     border-radius: 10px;
     padding: 10px 10px;
-    margin-bottom: 15px;
 }
 #mainSectin article:last-of-type {
 	margin-bottom: 0px;
 }
 
+/* Styles for index.html Only */
+.indexPage #mainSection article {
+    background: none;
+    border: none;
+    width: 30%;
+    margin-right: 10px;
+    float: left;
+}
+.indexPage #mainSection article:last-of-type {
+    margin-right: 0;
+}
+.indexPage #mainSection article #satsumaMission, .indexPage #mainSection article #competitorsImage {
+    width: 100%;
+    box-shadow: none;
+    padding: 5px;
+    background-color: white;
+    border: 1px solid #B9B1A8;
+}
+/* Styles for index.html Only END */
 #searchSection header{
     margin-bottom: 100px;
 }
@@ -150,7 +160,8 @@ nav ul ul {
 }
 
 #mainFooter {
-    background-color: rgba(255, 255, 255, 0);
+    background-color: #4B4D52;
+    padding: 10px;
 }
 .clearfix:after {
     content: '';
