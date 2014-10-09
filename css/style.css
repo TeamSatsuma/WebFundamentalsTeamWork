@@ -211,6 +211,7 @@ nav ul ul {
     box-shadow: 5px 5px 5px #696969;
 }
 
+/* For headers positioned right */
 .right-header {
 	text-align: right;
 }
