@@ -135,7 +135,8 @@ nav ul ul {
 .indexPage #mainSection article:last-of-type {
     margin-right: 0;
 }
-.indexPage #mainSection article #satsumaMission, .indexPage #mainSection article #competitorsImage {
+.indexPage #mainSection article #satsumaMission, .indexPage #mainSection article #competitorsImage,
+.indexPage #mainSection article #imageChistin {
     width: 100%;
     box-shadow: none;
     padding: 5px;
@@ -212,6 +213,11 @@ nav ul ul {
 }
 
 #satsumaMission {
+    width: 200px;
+    height: 200px;
+}
+
+#imageChistin {
     width: 200px;
     height: 200px;
 }
