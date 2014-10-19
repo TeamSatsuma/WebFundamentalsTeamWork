@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Emigrant UNIVERSITY</title>
+    <link href="css/normalize.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+</head>
+<body class="indexPage">
+    <header id="mainHeader" class="clearfix">
+        <div class="wrapper">
+            <form action="searchPage.html" class="clearfix">
+                <div id="searchBox">
+                    <input id="searchField" type="text" placeholder="Търсене..."/>
+                    <button>GO</button>
+                </div>
+            </form>
+            <div id="mainLogo">
+                <a href="index.html">
+                <img id="emigrant-uni-logo" src="img/logo.png" alt="Emigrant University" />
+               </a>
+            </div>
+            <nav id="mainNav">
+                <ul id="nav" class="clearfix">
+                    <li>
+                        <a href="index.html">
+                            Начало
+                        </a>
+                    </li>
+                    <li>
+                        <a href="news.html">
+                            Новини
+                        </a>
+                    </li>
+                    <li>
+                        <a href="about.html">
+                            За университета
+                        </a>
+                        <ul>
+                            <li>
+                                <a href="about.html">Обща информация</a>
+                            </li>
+                                    <li>
+                                        <a href="trainers.html">Преподаватели</a>
+                                    </li>
+                            <li>
+                                <a href="assistants.html">Асистенти</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="education.html">
+                            Обучения
+                        </a>
+                            <ul>
+                                <li>
+                                    <a href="education.html">Професии</a>
+                                </li>
+                                        <li>
+                                            <a href="fast-tracks.html">Fast track курсове</a>
+                                        </li>
+                                    </ul>
+                    </li>
+                    <li>
+                        <a href="work.html">
+                            Работа
+                        </a>
+                    </li>
+                    <li>
+                        <a href="partners.html">
+                            Партньори
+                        </a>
+                    </li>
+                    <li>
+                        <a href="contacts.html">
+                            Контакти
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    
+    <div id="contact">
+        
+    <form id="topForm" method="post">
+        <fieldset>
+            <legend><h2>За връзка с нас</h2></legend>
+            <div class="field">
+                <label for="name">Име</label>
+                <input id="name" type="text" placeholder="Вашето име" required="required" maxlength="50" />
+            </div>
+            <div class="field">
+                <label for="mail">Email</label>
+                <input id="mail" type="email" placeholder="Email" required="required" maxlength="50" />
+            </div>
+            <div class="field">
+                <label for="topic">Заглавие</label>
+                <input id="topic" type="text" placeholder="Заглавие" required="required" maxlength="50" />
+            </div>
+            <div class="field">
+                <label for="inquiry">Запитване</label>
+                <textarea id="inquiry" placeholder="Вашето запитване" required="required"></textarea>
+            </div>
+            <button class="submitBtn" type="submit">Изпрати запитване</button>
+        </fieldset>
+    </form>
+    
+    <div id="credentials">
+        <h2>София</h2>
+        <h3>улица:</h3><p>,,Кочо Честименски" 5</p>
+        <h3>телефон:</h3><p>+359 888 123 456</p>
+        <h3>email:</h3><p>info@emigrantuni.bg</p>
+    </div>
+    
+    <form id="bottomForm" method="post">
+        <fieldset>
+            <legend><h2>Кандидатствай</h2></legend>
+            <div class="field">
+                <label for="firstName">Име</label>
+                <input id="firstName" type="text" placeholder="Име" required="required" />
+            </div>
+            <div class="field">
+                <label for="middleName">Презиме</label>
+                <input id="middleName" type="text" placeholder="Презиме" required="required" />
+            </div>
+            <div class="field">
+                <label for="lastName">Фамилия</label>
+                <input id="lastName" type="text" placeholder="Фамилия" required="required" />
+            </div>
+            <div class="field">
+                <label for="phone">Телефон</label>
+                <input id="phone" type="tel" placeholder="Телефон" required="required" />
+            </div>
+            <div class="field">
+                <label for="email">Email</label>
+                <input id="email" type="email" placeholder="Email" required="required" />
+            </div>
+            <div class="field">
+                <label for="birthDate">Рожденна дата</label>
+                <input id="birthDate" type="date" placeholder="Рожденна дата" required="required" />
+            </div>
+            <div class="field">
+                <label>Пол</label>
+                <div>
+                    <input id="male" name="gender" type="radio" value="Male" />
+                    <label for="male">Мъж</label>
+                    <input id="female" name="gender" type="radio" value="Female" />
+                    <label for="female">Жена</label>
+                </div>
+            </div>
+            <div class="field">
+                <label for="town">Град</label>
+                <input id="town" type="text" placeholder="Град"/>
+            </div>
+            <div class="field">
+                <label for="country">Държава</label>
+                <input id="country" type="text" placeholder="Държава"/>
+            </div>
+            <button class="submitBtn" type="submit">Кандидатствай</button>
+        </fieldset>
+    </form>
+    
+    </div>
+    
+    <footer id="mainFooter">
+        <div class="wrapper">
+            <p>
+                Този сайт е направен като екипен проект в <a id="footerLink" href="http://softuni.bg" target="_blank">SoftUni</a>. Всичко в него е измислица и няма връзка с реалността. Или почти няма.
+            </p>
+            <span>
+                Emigrant UNIVERSITY &#169; 2014
+            </span>
+        </div>
+    </footer>
+</body>
+</html>
