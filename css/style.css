@@ -40,7 +40,7 @@ nav ul ul {
 		display: block;
 	}
 nav ul {
-	/*background: #DE8642;*/
+	/*background: #D0CABF;*/
 	/*
 	background: linear-gradient(top, #707070 0%, #3D3C3A 100%);
 	background: -moz-linear-gradient(top, #707070 0%, #3D3C3A 100%); 
@@ -115,10 +115,11 @@ nav ul ul {
 }
 
 #mainSection article {
-    background: #FFF3E7;
-    border: 3px solid #DE8642;
+    /*background: #FFFFFF; */
+    border: 2px solid #D0CABF;
     border-radius: 10px;
     padding: 10px 10px;
+    margin-bottom: 10px;
 }
 #mainSectin article:last-of-type {
 	margin-bottom: 0px;
@@ -151,7 +152,7 @@ nav ul ul {
 #searchSection hr {
     margin-top: 30px;
     width: 90%;
-    border-color: #DE8642;
+    border-color: #D0CABF;
 }
 
 #searchSection hr + div{
@@ -165,6 +166,10 @@ nav ul ul {
     background-color: #4B4D52;
     padding: 10px;
 }
+	#mainFooter p {
+		color: black;
+	}
+
 .clearfix:after {
     content: '';
     display: block;
@@ -173,8 +178,8 @@ nav ul ul {
 
 #searchBox {
     float: right;
-    background-color: #FFF2E7;
-    border: 2px solid #DE8642;
+    /*background-color: #FFF2E7;*/
+    border: 2px solid #D0CABF;
     margin-right: 10px;
     border-radius: 5px;
     padding: 2px;
@@ -188,7 +193,7 @@ nav ul ul {
 }
 
 #searchField:focus {
-    background-color: #FFF2E7;
+    /*background-color: #FFF2E7;*/
 }
 
 #cursing {
@@ -254,3 +259,28 @@ nav ul ul {
 .right-header {
 	text-align: right;
 }
+
+/* "Запиши се" button */
+.signUp {
+	text-align: center;
+	background-color: #912900;
+	width: 100px;
+	height: 30px;
+	border-radius: 30px;
+	padding-top: 10px;
+	margin: 30px auto 10px auto;
+}
+	.signUp a {
+		text-decoration: none;
+		color: #F6F6F4;
+		font-size: 11pt;
+	}
+	.signUp:hover {
+		background-color: #FF662A;
+		cursor:pointer;
+	}
+
+
+
+
+
