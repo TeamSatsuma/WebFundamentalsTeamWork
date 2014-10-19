@@ -116,6 +116,8 @@ nav ul ul {
 
 #mainSection article {
     /*background: #FFFFFF; */
+   	font-family: Helvetica;
+   	font-size: 10pt;
     border: 2px solid #D0CABF;
     border-radius: 10px;
     padding: 10px 10px;
@@ -255,10 +257,6 @@ nav ul ul {
     box-shadow: 5px 5px 5px #696969;
 }
 
-/* For headers positioned right */
-.right-header {
-	text-align: right;
-}
 
 /* "Запиши се" button */
 .signUp {
@@ -269,6 +267,7 @@ nav ul ul {
 	border-radius: 30px;
 	padding-top: 10px;
 	margin: 30px auto 10px auto;
+	font-family: sans-serif;
 }
 	.signUp a {
 		text-decoration: none;
