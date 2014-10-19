@@ -258,23 +258,31 @@ nav ul ul {
 }
 
 
-/* "Запиши се" button */
-.signUp {
+/* стила за бутоните - "запипи се" и т.н. */
+.btn {
 	text-align: center;
-	background-color: #912900;
+	margin: 30px auto 10px auto;
+	
+	/*
+	
 	width: 100px;
 	height: 30px;
-	border-radius: 30px;
+	
 	padding-top: 10px;
-	margin: 30px auto 10px auto;
-	font-family: sans-serif;
+	
+	
+	*/
 }
-	.signUp a {
+	.btn a {
 		text-decoration: none;
+		font-family: sans-serif;
 		color: #F6F6F4;
 		font-size: 11pt;
+		background-color: #912900;
+		padding: 10px;
+		border-radius: 30px;
 	}
-	.signUp:hover {
+	.btn a:hover {
 		background-color: #FF662A;
 		cursor:pointer;
 	}
