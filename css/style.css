@@ -190,28 +190,26 @@ nav ul ul {
     margin: 0 15px 10px 10px;
 }
 
-#searchSection header{
-    margin-bottom: 100px;
-}
 
 #searchSection hr {
-    margin-top: 30px;
-    width: 90%;
+    margin-top: 10px;
+    margin-left: 10%;
+    background-color: grey;
+    height: 1px;
+    border: none;
+    width: 80%;
     border-color: #D0CABF;
 }
 
-#searchSection hr{
-    margin-left: 60px;
+.searchPage #searchSection #searchResults {
+    margin-left: 10%;
     font-size: 14pt;
     font-style: italic;
     color: #912900;
 }
 
-.searchPage #searchSection #searchResults {
-    margin-left: 60px;
-    font-size: 14pt;
-    font-style: italic;
-    color: #912900;
+.searchPage #googleFrame {
+    margin-left: 10%;
 }
 
 #mainFooter {
@@ -244,6 +242,8 @@ nav ul ul {
 
 }
 
+
+
 #cursing {
     margin-left: 20px;
     color: #576169;
@@ -259,7 +259,6 @@ nav ul ul {
 
 #quote {
     font-style: italic;
-    vertical-align: top;
     font-size: 16pt;
     margin-left: 63%;
     color: #cd3500;
