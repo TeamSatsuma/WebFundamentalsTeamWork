@@ -178,6 +178,13 @@ nav ul ul {
 
 /* Styles for index.html Only END */
 
+.newsPage #mainSection #ambition img {
+    float: left;
+    width: 290px;
+    height: 170px;
+    margin: 0 15px 10px 10px;
+}
+
 .newsPage #mainSection article #CompetitorsVideo {
     float: left;
     margin: 0 15px 10px 10px;
@@ -204,8 +211,9 @@ nav ul ul {
     background-color: #4B4D52;
     padding: 10px;
 }
-	#mainFooter p {
-		color: black;
+
+	#mainFooter p, #mainFooter.wrapper span {
+		color: white;
 	}
 
 .clearfix:after {
@@ -216,7 +224,6 @@ nav ul ul {
 
 #searchBox {
     float: right;
-    /*background-color: #FFF2E7;*/
     border: 2px solid #D0CABF;
     margin-right: 10px;
     border-radius: 5px;
@@ -228,10 +235,6 @@ nav ul ul {
     border: 0;
     color: #707070;
 
-}
-
-#searchField:focus {
-    /*background-color: #FFF2E7;*/
 }
 
 #cursing {
@@ -265,11 +268,15 @@ nav ul ul {
     height: 200px;
 }
 
-#footerLink, h2 {
+h2 {
     color: #912900;
 }
 
-/* class="page-list" -> all lists used over the website */
+#footerLink {
+    color: #ffff00;
+}
+
+    /* class="page-list" -> all lists used over the website */
 .page-list {
 	color: #3D3C3A;
 	font-style: italic;
