@@ -81,10 +81,15 @@ nav ul li a {
 	color: #4B4D52; text-decoration: none;
 }
 nav ul ul {
-	background: #B9B1A8; border-radius: 1px; padding: 0;
-	position: absolute; top: 100%;
+	background: #B9B1A8;
+    border-top-left-radius: 1px;
+    border-top-right-radius: 1px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+    padding: 0;
+	position: absolute;
+    top: 100%;
+
 }
 	nav ul ul li {
 		float: none;
@@ -120,7 +125,7 @@ nav ul ul {
 
 #mainSection article {
     /*background: #FFFFFF; */
-   	font-family: Helvetica;
+   	font-family: Helvetica, Serif;
    	font-size: 10pt;
     border: 2px solid #D0CABF;
     border-radius: 10px;
@@ -128,7 +133,7 @@ nav ul ul {
     margin-bottom: 10px;
 }
 #mainSectin article:last-of-type {
-	margin-bottom: 0px;
+	margin-bottom: 0;
 }
 
 /* Styles for index.html Only */
@@ -142,13 +147,33 @@ nav ul ul {
 .indexPage #mainSection article:last-of-type {
     margin-right: 0;
 }
-.indexPage #mainSection article #satsumaMission, .indexPage #mainSection article #competitorsImage,
+
 .indexPage #mainSection article #imageChistin {
-    width: 100%;
+    width: 96%;
     box-shadow: none;
     padding: 5px;
     background-color: white;
     border: 1px solid #B9B1A8;
+}
+
+.indexPage #mainSection article #satsumaMission {
+    width: 65%;
+    box-shadow: none;
+    padding: 5px;
+    background-color: white;
+    border: 1px solid #B9B1A8;
+    margin-left: 11%;
+    margin-right: 10%
+}
+
+.indexPage #mainSection article #competitorsImage {
+    width: 65%;
+    box-shadow: none;
+    padding: 5px;
+    background-color: white;
+    border: 1px solid #B9B1A8;
+    margin-left: 12%;
+    margin-right: 10%;
 }
 /* Styles for index.html Only END */
 #searchSection header{
@@ -290,7 +315,7 @@ nav ul ul {
 	border: none;
 }
 	.field {
-		font-family: Helvetica;
+		font-family: Helvetica, Serif;
 		display: block;
 		margin: 10px 5px;
 		width: 210px;
@@ -303,7 +328,7 @@ nav ul ul {
 			border: none;
 			border-radius: 7px;
 			background-color: #FFFFFF;
-			box-shadow: 0px 2px 5px #888; 
+			box-shadow: 0 2px 5px #888;
 		}
 		.field textarea {
 			width: 400px;
@@ -316,11 +341,11 @@ nav ul ul {
 	float:right;
 	background-color: #FFFFFF;
 	border-radius: 7px;
-	box-shadow: 0px 2px 5px #888;
+	box-shadow: 0 2px 5px #888;
 	padding: 10px 20px;
 }
 	#credentials p {
-		font-family: Helvetica;
+		font-family: Helvetica, Serif;
 		font-size: 11pt;
 		font-style: italic;
 		padding-bottom: 15px;
