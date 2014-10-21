@@ -149,22 +149,22 @@ nav ul ul {
 }
 
 .indexPage #mainSection article #imageChistin {
-    width: 96%;
+    width: 90%;
     box-shadow: none;
     padding: 5px;
     background-color: white;
     border: 1px solid #B9B1A8;
+    margin-right: 5%;
 }
 
-
-#CompetitorsVideo {
+.indexPage #mainSection article #CompetitorsVideo {
     margin-bottom: 15px;
     padding: 5px;
     background-color: white;
     border: 1px solid #B9B1A8;
     border-radius: 10px;
+    margin-left: 5%;
 }
-
 
 .indexPage #mainSection article #satsumaMission {
     width: 65%;
@@ -177,6 +177,12 @@ nav ul ul {
 }
 
 /* Styles for index.html Only END */
+
+.newsPage #mainSection article #CompetitorsVideo {
+    float: left;
+    margin: 0 15px 10px 10px;
+}
+
 #searchSection header{
     margin-bottom: 100px;
 }
