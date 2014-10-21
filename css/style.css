@@ -200,7 +200,14 @@ nav ul ul {
     border-color: #D0CABF;
 }
 
-#searchSection hr + div{
+#searchSection hr{
+    margin-left: 60px;
+    font-size: 14pt;
+    font-style: italic;
+    color: #912900;
+}
+
+.searchPage #searchSection #searchResults {
     margin-left: 60px;
     font-size: 14pt;
     font-style: italic;
