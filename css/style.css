@@ -408,5 +408,118 @@ h2 {
 		background-color: #912900;
 	}
 
+/* trainers.html css */
 
+#trainers aside {
+    background-color: #F5E6FE;
+    float: left;
+    width: 20%;
+    border-radius: 20px;
+    padding: 15px;
+    display: inline-block;
+    margin-right: 0;
+    margin-left: 5px;
+}
+#trainers nav ul li {
+    border-radius: 10px;    
+    padding: 5px 25px 5px 5px;
+}
+#trainers nav ul li a:visited {
+    color: grey;   
+}
+#trainers nav header {
+    text-decoration: underline;
+    font-size: 1.5em;
+    font-weight: bold;    
+}
+#trainers li:first-child:hover {
+    background: blue;    
+}
+
+#trainers li:nth-child(2):hover {
+    background: green;   
+}
+
+#trainers li:nth-child(3):hover {
+    background: red;   
+}
+
+#trainers li:nth-child(4):hover {
+    background: pink;   
+}
+
+#trainers li:nth-child(5):hover {
+    background: yellow;   
+}
+
+#trainers li:nth-child(6):hover {
+    background: orange;   
+}
+#trainers nav a {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: black;
+    margin: 0px 5px 0px 5px;
+}
+
+#trainers article {
+	background-color: rgba(230,230,230, 0.99); 	
+    float: right;
+    font-size: 1.1em;
+    border-radius: 20px;
+    padding: 15px;
+    margin: 5px 25px 5px 25px;
+}
+#trainers section {
+    padding: 5px; 
+    float: right;
+    display: inline-block;
+    border-radius: 20px;
+    padding: 0 15px 15px 15px;
+    width: 75%;
+    margin: 0;
+}
+
+#trainers article header {
+    padding: 10px;
+    margin: 0;
+    border-radius: 10px;
+    font-size: 1.8em;
+}
+
+#trainers #VGolev {
+    color: white;
+    background: blue;
+}
+#trainers #APavlov {
+    background: green;
+}
+#trainers #EAtanasov {
+    background: red;
+}
+
+#trainers #SVasileva {
+    background: pink;
+    color: white;
+}
+#trainers #GTeoharov {
+    color: white;
+    background: yellow;
+}
+
+#trainers #FBoyadzhiyski {
+    background: orange;
+    color: white;
+}
+#trainers article a {
+    font-style:italic;
+    color: #808080;
+}
+#trainers div:first-line {
+    font-style: italic;
+}
+
+#trainers div:first-letter {
+    font-size: 3em;    
+}
 
