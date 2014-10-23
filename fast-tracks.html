@@ -1,3 +1,13 @@
+<!--
+DO NOT INLCUDE THIS
+
+INSTRUCTIONS
+
+1. Change body class to match your page.(e.g. news.html -> body class="newsPage");
+2. Use em for font-size property. (e.g. font-size: 1em = 100% size; font-size: 1.5em = 150% size and so on.);
+3. Write your html inside the following tags <section id="mainSection"><div class="wrapper">   </div></section>
+-->
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -6,136 +16,138 @@
     <link href="css/normalize.css" rel="stylesheet" />
     <link href="css/style.css" rel="stylesheet" />
 </head>
-<body>
-        <header id="mainHeader" class="clearfix">
-            <div class="wrapper">
-                <form action="searchPage/searchPage.html" class="clearfix">
-                    <div id="searchBox">
-                        <input id="searchField" type="text" placeholder="Търсене..."/>
-                        <button>GO</button>
-                    </div>
-                </form>
-                <div id="mainLogo">
-                    <a href="index.html">
-                    <img id="emigrant-uni-logo" src="img/logo.png" alt="Emigrant University" />
-                   </a>
+<body class="fast-tracksPage">
+    <header id="mainHeader" class="clearfix">
+        <div  id="headerImage" class="topImage"></div>
+        <div class="wrapper">
+            <form action="searchPage.html" class="clearfix">
+                <div id="searchBox">
+                    <input id="searchField" type="text" placeholder="Търсене..."/>
+                    <button>GO</button>
                 </div>
-                <nav id="mainNav">
-                    <ul id="nav" class="clearfix">
-                        <li>
-                            <a href="index.html">
-                                Начало
-                            </a>
-                        </li>
-                        <li>
-                            <a href="news.html">
-                                Новини
-                            </a>
-                        </li>
-                        <li>
-                            <a href="about.html">
-                                За университета
-                            </a>
+            </form>
+            <div id="mainLogo">
+                <a href="index.html">
+                <img id="emigrant-uni-logo" src="img/logo.png" alt="Emigrant University" />
+               </a>
+            </div>
+            <nav id="mainNav">
+                <ul id="nav" class="clearfix">
+                    <li>
+                        <a href="index.html">
+                            Начало
+                        </a>
+                    </li>
+                    <li>
+                        <a href="news.html">
+                            Новини
+                        </a>
+                    </li>
+                    <li>
+                        <a href="about.html">
+                            За университета
+                        </a>
+                        <ul>
+                            <li>
+                                <a href="about.html">Обща информация</a>
+                            </li>
+                                    <li>
+                                        <a href="trainers.html">Преподаватели</a>
+                                    </li>
+                            <li>
+                                <a href="assistants.html">Асистенти</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="education.html">
+                            Обучения
+                        </a>
                             <ul>
                                 <li>
-                                    <a href="about.html">Обща информация</a>
+                                    <a href="education.html">Професии</a>
                                 </li>
                                         <li>
-                                            <a href="trainers.html">Преподаватели</a>
+                                            <a href="fast-tracks.html">Fast track курсове</a>
                                         </li>
-                                <li>
-                                    <a href="assistants.html">Асистенти</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="education.html">
-                                Обучения
-                            </a>
-                                <ul>
-                                    <li>
-                                        <a href="education.html">Професии</a>
-                                    </li>
-                                            <li>
-                                                <a href="fast-tracks.html">Fast track курсове</a>
-                                            </li>
-                                        </ul>
-                        </li>
-                        <li>
-                            <a href="work.html">
-                                Работа
-                            </a>
-                        </li>
-                        <li>
-                            <a href="partners.html">
-                                Партньори
-                            </a>
-                        </li>
-                        <li>
-                            <a href="contacts.html">
-                                Контакти
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
-            
-        <section id="mainSection">
-            <div class="wrapper">
-                <article id="fast-track-one" class="clearfix">
-                    <h2>Курс по оцеляване - препитание и нощуване в чужбина</h2>
-                    <p>
-                        <img class="align-right" src="img/survival-fast-track.jpg" alt="Survival Fast Track" />
-                        Препитанието в чужбина е важен въпрос за вашето оцеляване като гастербайтер. Намирането на храна може да бъде както сравнително лесна, така и доста трудна задача.
-                        <br>
-                        В този fast-track курс ще ви научим как да се справяте в новата среда и да си лягате сити в първите дни на вашето живуркане в чужбина. Практически съвети, изпробвани в реалния живот от нашите трейнъри.
-                        <br>
-                    </p>
-                        <ul class="page-list">
-                            <li>Безплатна прехрана в домове за бездомници и бази на ,,Армията на спасението".</li>
-                            <li>Съвети за намиране на подслон в различните географски ширини - техники за здрав сън на открито, докато намерите първата си работа и можете да си позволите квартира.</li>
-                            <li>Съвети за лична хигиена - къде можем да се изкъпем безплатно или за минимална сума, докато сте все още бездомни и без работа.</li>
-                            <li>Как да предизвикваме съчуствие в местното население, така че да им дожалее за вас и да ви почерпят с нещо.</li>
-                        </ul>
-                    <p>
-                        Курсът приключва с практически изпит. Участниците ще трябва да преживеят 1 седмица из улиците на Перник с 20лв в джоба. Успешно издържалите изпита няма да получат нищо.
-                    </p>
-                    <div class="btn">
-                        <a href="">Запиши се</a>
-                    </div>
-                </article>
+                                    </ul>
+                    </li>
+                    <li>
+                        <a href="work.html">
+                            Работа
+                        </a>
+                    </li>
+                    <li>
+                        <a href="partners.html">
+                            Партньори
+                        </a>
+                    </li>
+                    <li>
+                        <a href="contacts.html">
+                            Контакти
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-                <article id="fast-track-two" class="clearfix">
-                    <h2>Събирач на смет</h2>
-                    <img class="align-right" src="img/cleaning-fast-track.jpg" alt="Cleaning Fast Track" />
-                    <p>С увеличаването на населението в големите градове се увеличава и количеството смет. Това е професия с голям недостиг на кадри,
-                    просто защото никой не иска да върши подобна работа. Ние в Университета за емигранти сме подготвили този специален
-                    курс заедно с нашите партньори от „Чистота София" АД, който набляга на практическите умения в областта.
-                    Ще получите безценни съвети от хора с дългогодишен опит в индустрията.
-                    <br>
-                    Курсът е с продължителност 3 седмици, като е изцяло практически. Курсистите ще обикалят улиците на столицата заедно с
-                    персонал от нашите партьори. В края на курса се полага изпит, след който преминалите го успешно получават сертификат,
-                    признат от водещите почистващите компании в големите европейски градове.
-                    <br>
-                    Отличниците от курса ще бъдат поканени на интервю с работодатели от Германия, Италия, Франция и Испания.
-                    </p>
-                    <div class="btn">
-                        <a href="">Запиши се</a>
-                    </div>
-                </article>
-            </div>
-	    </section>
-        
-        <footer id="mainFooter">
-            <div class="wrapper">
+    <section id="mainSection" class="clearfix">
+        <div class="wrapper">
+            
+            <article id="fast-track-one" class="clearfix">
+                <h2>Курс по оцеляване - препитание и нощуване в чужбина</h2>
                 <p>
-                    Този сайт е направен като екипен проект в <a id="footerLink" href="http://softuni.bg" target="_blank">SoftUni</a>. Всичко в него е измислица и няма връзка с реалността. Или почти няма.
+                    <img class="align-right" src="img/survival-fast-track.jpg" alt="Survival Fast Track" />
+                    Препитанието в чужбина е важен въпрос за вашето оцеляване като гастербайтер. Намирането на храна може да бъде както сравнително лесна, така и доста трудна задача.
+                    <br>
+                    В този fast-track курс ще ви научим как да се справяте в новата среда и да си лягате сити в първите дни на вашето живуркане в чужбина. Практически съвети, изпробвани в реалния живот от нашите трейнъри.
+                    <br>
                 </p>
-                <span>
-                    Emigrant UNIVERSITY &#169; 2014
-                </span>
-            </div>
-        </footer>
+                    <ul class="page-list">
+                        <li>Безплатна прехрана в домове за бездомници и бази на ,,Армията на спасението".</li>
+                        <li>Съвети за намиране на подслон в различните географски ширини - техники за здрав сън на открито, докато намерите първата си работа и можете да си позволите квартира.</li>
+                        <li>Съвети за лична хигиена - къде можем да се изкъпем безплатно или за минимална сума, докато сте все още бездомни и без работа.</li>
+                        <li>Как да предизвикваме съчуствие в местното население, така че да им дожалее за вас и да ви почерпят с нещо.</li>
+                    </ul>
+                <p>
+                    Курсът приключва с практически изпит. Участниците ще трябва да преживеят 1 седмица из улиците на Перник с 20лв в джоба. Успешно издържалите изпита няма да получат нищо.
+                </p>
+                <div class="btn">
+                    <a href="contacts.html">Запиши се</a>
+                </div>
+            </article>
+
+            <article id="fast-track-two" class="clearfix">
+                <h2>Събирач на смет</h2>
+                <img class="align-right" src="img/cleaning-fast-track.jpg" alt="Cleaning Fast Track" />
+                <p>С увеличаването на населението в големите градове се увеличава и количеството смет. Това е професия с голям недостиг на кадри,
+                просто защото никой не иска да върши подобна работа. Ние в Университета за емигранти сме подготвили този специален
+                курс заедно с нашите партньори от „Чистота София" АД, който набляга на практическите умения в областта.
+                Ще получите безценни съвети от хора с дългогодишен опит в индустрията.
+                <br>
+                Курсът е с продължителност 3 седмици, като е изцяло практически. Курсистите ще обикалят улиците на столицата заедно с
+                персонал от нашите партьори. В края на курса се полага изпит, след който преминалите го успешно получават сертификат,
+                признат от водещите почистващите компании в големите европейски градове.
+                <br>
+                Отличниците от курса ще бъдат поканени на интервю с работодатели от Германия, Италия, Франция и Испания.
+                </p>
+                <div class="btn">
+                    <a href="contacts.html">Запиши се</a>
+                </div>
+            </article>
+                
+        </div>
+    </section>
+    <footer id="mainFooter">
+        <div class="wrapper">
+            <p>
+                Този сайт е направен като екипен проект в <a id="footerLink" href="http://softuni.bg" target="_blank">SoftUni</a>. Всичко в него е измислица и няма връзка с реалността. Или почти няма.
+            </p>
+            <span>
+                Emigrant UNIVERSITY &#169; 2014
+            </span>
+        </div>
+    </footer>
 </body>
 </html>

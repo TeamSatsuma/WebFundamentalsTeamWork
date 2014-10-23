@@ -6,8 +6,9 @@
     <link href="css/normalize.css" rel="stylesheet" />
     <link href="css/style.css" rel="stylesheet" />
 </head>
-<body class="indexPage">
+<body class="contactsPage">
     <header id="mainHeader" class="clearfix">
+        <div  id="headerImage" class="topImage"></div>
         <div class="wrapper">
             <form action="searchPage.html" class="clearfix">
                 <div id="searchBox">
@@ -80,89 +81,93 @@
             </nav>
         </div>
     </header>
-    
-    
-    <div id="contact">
-        
-    <form id="topForm" method="post">
-        <fieldset>
-            <legend><h2>За връзка с нас</h2></legend>
-            <div class="field">
-                <label for="name">Име</label>
-                <input id="name" type="text" placeholder="Вашето име" required="required" maxlength="50" />
-            </div>
-            <div class="field">
-                <label for="mail">Email</label>
-                <input id="mail" type="email" placeholder="Email" required="required" maxlength="50" />
-            </div>
-            <div class="field">
-                <label for="topic">Заглавие</label>
-                <input id="topic" type="text" placeholder="Заглавие" required="required" maxlength="50" />
-            </div>
-            <div class="field">
-                <label for="inquiry">Запитване</label>
-                <textarea id="inquiry" placeholder="Вашето запитване" required="required"></textarea>
-            </div>
-            <button class="submitBtn" type="submit">Изпрати запитване</button>
-        </fieldset>
-    </form>
-    
-    <div id="credentials">
-        <h2>София</h2>
-        <h3>улица:</h3><p>,,Кочо Честименски" 5</p>
-        <h3>телефон:</h3><p>+359 888 123 456</p>
-        <h3>email:</h3><p>info@emigrantuni.bg</p>
-    </div>
-    
-    <form id="bottomForm" method="post">
-        <fieldset>
-            <legend><h2>Кандидатствай</h2></legend>
-            <div class="field">
-                <label for="firstName">Име</label>
-                <input id="firstName" type="text" placeholder="Име" required="required" />
-            </div>
-            <div class="field">
-                <label for="middleName">Презиме</label>
-                <input id="middleName" type="text" placeholder="Презиме" required="required" />
-            </div>
-            <div class="field">
-                <label for="lastName">Фамилия</label>
-                <input id="lastName" type="text" placeholder="Фамилия" required="required" />
-            </div>
-            <div class="field">
-                <label for="phone">Телефон</label>
-                <input id="phone" type="tel" placeholder="Телефон" required="required" />
-            </div>
-            <div class="field">
-                <label for="email">Email</label>
-                <input id="email" type="email" placeholder="Email" required="required" />
-            </div>
-            <div class="field">
-                <label for="birthDate">Рожденна дата</label>
-                <input id="birthDate" type="date" placeholder="Рожденна дата" required="required" />
-            </div>
-            <div class="field">
-                <label>Пол</label>
-                <div>
-                    <input id="male" name="gender" type="radio" value="Male" />
-                    <label for="male">Мъж</label>
-                    <input id="female" name="gender" type="radio" value="Female" />
-                    <label for="female">Жена</label>
+
+    <section id="mainSection" class="clearfix">
+        <div class="wrapper">
+            
+            <div id="contact">
+                <form id="topForm" method="post">
+                    <fieldset>
+                        <legend><h2>За връзка с нас</h2></legend>
+                        <div class="field">
+                            <label for="name">Име</label>
+                            <input id="name" type="text" placeholder="Вашето име" required="required" maxlength="50" />
+                        </div>
+                        <div class="field">
+                            <label for="mail">Email</label>
+                            <input id="mail" type="email" placeholder="Email" required="required" maxlength="50" />
+                        </div>
+                        <div class="field">
+                            <label for="topic">Заглавие</label>
+                            <input id="topic" type="text" placeholder="Заглавие" required="required" maxlength="50" />
+                        </div>
+                        <div class="field">
+                            <label for="inquiry">Запитване</label>
+                            <textarea id="inquiry" placeholder="Вашето запитване" required="required"></textarea>
+                        </div>
+                        <button class="submitBtn" type="submit">Изпрати запитване</button>
+                    </fieldset>
+                </form>
+                
+                <div id="credentials">
+                    <h2>София</h2>
+                    <h3>улица:</h3><p>,,Кочо Честименски" 5</p>
+                    <h3>телефон:</h3><p>+359 888 123 456</p>
+                    <h3>email:</h3><p>info@emigrantuni.bg</p>
                 </div>
+                
+                <form id="bottomForm" method="post">
+                    <fieldset>
+                        <legend><h2>Кандидатствай</h2></legend>
+                        <div class="field">
+                            <label for="firstName">Име</label>
+                            <input id="firstName" type="text" placeholder="Име" required="required" />
+                        </div>
+                        <div class="field">
+                            <label for="middleName">Презиме</label>
+                            <input id="middleName" type="text" placeholder="Презиме" required="required" />
+                        </div>
+                        <div class="field">
+                            <label for="lastName">Фамилия</label>
+                            <input id="lastName" type="text" placeholder="Фамилия" required="required" />
+                        </div>
+                        <div class="field">
+                            <label for="phone">Телефон</label>
+                            <input id="phone" type="tel" placeholder="Телефон" required="required" />
+                        </div>
+                        <div class="field">
+                            <label for="email">Email</label>
+                            <input id="email" type="email" placeholder="Email" required="required" />
+                        </div>
+                        <div class="field">
+                            <label for="birthDate">Рожденна дата</label>
+                            <input id="birthDate" type="date" placeholder="Рожденна дата" required="required" />
+                        </div>
+                        <div class="field">
+                            <label>Пол</label>
+                            <div>
+                                <input id="male" name="gender" type="radio" value="Male" />
+                                <label for="male">Мъж</label>
+                                <input id="female" name="gender" type="radio" value="Female" />
+                                <label for="female">Жена</label>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <label for="town">Град</label>
+                            <input id="town" type="text" placeholder="Град"/>
+                        </div>
+                        <div class="field">
+                            <label for="country">Държава</label>
+                            <input id="country" type="text" placeholder="Държава"/>
+                        </div>
+                        <button class="submitBtn" type="submit">Кандидатствай</button>
+                    </fieldset>
+                </form>
             </div>
-            <div class="field">
-                <label for="town">Град</label>
-                <input id="town" type="text" placeholder="Град"/>
-            </div>
-            <div class="field">
-                <label for="country">Държава</label>
-                <input id="country" type="text" placeholder="Държава"/>
-            </div>
-            <button class="submitBtn" type="submit">Кандидатствай</button>
-        </fieldset>
-    </form>
+        </div>
+        
+    </section>
     
-    </div>
     
     <footer id="mainFooter">
         <div class="wrapper">
