@@ -411,16 +411,7 @@ h2 {
 
 
 /* trainers.html css */
-#trainers aside {
-    background-color: #F5E6FE;
-    float: left;
-    width: 20%;
-    border-radius: 20px;
-    padding: 15px;
-    display: inline-block;
-    margin-right: 0;
-    margin-left: 5px;
-}
+
 #trainers nav ul li {
     border-radius: 10px;    
     padding: 5px 25px 5px 5px;
@@ -456,25 +447,22 @@ h2 {
 #trainers li:nth-child(6):hover {
     background: orange;   
 }
-#trainers nav a {
+#trainers a {
     text-decoration: none;
     font-size: 1.2em;
     color: black;
-    margin: 0px 5px 0px 5px;
+    margin: 0px 5px;
 }
 
 #trainers article {
 	background-color: rgba(230,230,230, 0.99); 	
-    float: right;
     font-size: 1.1em;
     border-radius: 20px;
     padding: 15px;
-    margin: 5px 25px 5px 25px;
+    margin: 5px 10px;
 }
 #trainers section {
     padding: 5px; 
-    float: right;
-    display: inline-block;
     border-radius: 20px;
     padding: 0 15px 15px 15px;
     width: 75%;
