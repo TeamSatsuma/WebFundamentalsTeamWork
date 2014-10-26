@@ -531,7 +531,7 @@ input[type=radio] {
 /*PARTNERS PAGE STYLING END*/
 
 /* CSS Styles for extra large screens */
-@media only screen and (min-width: 1600px) {
+@media only screen and (min-width: 1680px) {
     body {
         background: purple;
     }
