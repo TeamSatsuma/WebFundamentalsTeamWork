@@ -100,7 +100,8 @@ nav ul ul {
     padding: 0;
     position: absolute;
     top: 100%;
-
+    list-style: none;
+    z-index: 9999;
 }
 nav ul ul li {
     float: none;
