@@ -675,6 +675,10 @@ input[type=radio] {
     body {
         background: blue;
     }
+    
+    .contactsPage #bottomForm {
+	width: 470px;
+    }
 
 }
 
@@ -682,6 +686,10 @@ input[type=radio] {
 @media only screen and (min-width: 480px) and (max-width: 640px) {
     body {
         background: yellow;
+    }
+    
+    .contactsPage #bottomForm {
+	width: 470px;
     }
 
 }
@@ -691,5 +699,14 @@ input[type=radio] {
     body {
         background: black;
     }
+    
+    .contactsPage #bottomForm {
+	width: 300px;
+    }
+          
+    .contactsPage .field textarea {
+    width: 300px;
+    height: 100px;
+}
 
 }
