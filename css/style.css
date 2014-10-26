@@ -22,9 +22,7 @@ img {
 }
 
 .wrapper {
-    min-width: 200px;
-    max-width: 1200px;
-    /*width: 960px;*/
+    width: 960px;
     margin: 0 auto;
 }
 
@@ -555,9 +553,12 @@ input[type=radio] {
 /*PARTNERS PAGE STYLING END*/
 
 /* CSS Styles for extra large screens */
-@media only screen and (min-width: 1680px) {
+@media only screen and (min-width: 1600px) {
     body {
-        background: purple;
+
+    }
+    .wrapper {
+        width: 1200px;
     }
 }
 
