@@ -22,7 +22,8 @@ img {
 }
 
 .wrapper {
-    width: 960px;
+    max-width: 960px;
+    min-width: 200px;
     margin: 0 auto;
 }
 
