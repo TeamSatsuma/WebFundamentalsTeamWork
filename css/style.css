@@ -1,4 +1,4 @@
-/* CSS Style for desktops > 1200px */
+/* CSS Styles for desktop screens <1600px & >1024px */
 
 /* Added some fonts from Google Fonts - 
  * font-family: 'Poiret One', cursive; -> for h2
@@ -14,13 +14,15 @@ body {
 p {
     color: #3D3C3A;
 }
-    p:first-letter {
-	margin-left: 3em;
-    }
+#mainSection p:first-letter {
+    margin-left: 1em;
+}
+img {
+    mag-width: 100%;
+}
 
 .wrapper {
-    max-width: 1140px;
-	min-width: 200px;
+    width: 960px;
     margin: 0 auto;
 }
 #mainHeader {
@@ -30,11 +32,13 @@ p {
 
 .topImage {
     background: url("../img/header-image.jpg");
-    width: 1250px;
+    width: 100%;
+    max-width: 1250px;
     height: 170px;
     margin: 0 auto 10px auto;
     box-shadow:
     inset 0 0 50px 30px white;
+    background-position: center;
 }
 
 #mainLogo {
@@ -43,17 +47,13 @@ p {
 }
 
 #emigrant-uni-logo {
-	width: 200px;
+    width: 200px;
 }
 
 #mainNav {
     padding-left:225px;
     font-size: 14px;
     vertical-align: bottom;
-}
-#contact {
-	background-color: #F6F6F4;
-	padding: 20px 50px; 
 }
 
 article h3 {
@@ -63,33 +63,33 @@ article h3 {
 
 /* Navigation menu behaviour - start */
 nav ul ul {
-	display: none;
+    display: none;
 }
-	nav ul li:hover > ul {
-		display: block;
-	}
+nav ul li:hover > ul {
+    display: block;
+}
 nav ul {
-	padding: 0 20px;
-	border-radius: 10px;
-	list-style: none;
-	position: relative;
-	display: inline-table;
+    padding: 0 20px;
+    border-radius: 10px;
+    list-style: none;
+    position: relative;
+    display: inline-table;
 }
-	nav ul:after {
-		content: ""; clear: both; display: block;	
-	}
+nav ul:after {
+    content: ""; clear: both; display: block;
+}
 nav ul li {
-	float: left;
+    float: left;
 }
-	nav ul li:hover {
-		background: #B9B1A8;
-	}
-		nav ul li:hover a {
-			color: #FFFFFF;
-		}
+nav ul li:hover {
+    background: #B9B1A8;
+}
+nav ul li:hover a {
+    color: #FFFFFF;
+}
 nav ul li a {
-	display: block; padding: 15px 20px;
-	color: #4B4D52; text-decoration: none;
+    display: block; padding: 10px 15px;
+    color: #4B4D52; text-decoration: none;
 }
 nav ul ul {
     background: #B9B1A8;
@@ -98,32 +98,31 @@ nav ul ul {
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     padding: 0;
-	position: absolute;
+    position: absolute;
     top: 100%;
 
 }
-	nav ul ul li {
-		float: none;
-		border-bottom: 1px solid #D0CABF;
-		position: relative;
-	}
-    nav ul ul li:last-of-type {
-        border-bottom: none;
-        border-bottom-left-radius: 10px;
-        border-bottom-right-radius: 10px;
-    }
-		nav ul ul li a {
-			padding: 15px 40px;
-			color: #FFFFFF;
-		}
-			nav ul ul li:hover {
-				background: #4B4D52;
-			}
+nav ul ul li {
+    float: none;
+    border-bottom: 1px solid #D0CABF;
+    position: relative;
+}
+nav ul ul li:last-of-type {
+    border-bottom: none;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+nav ul ul li a {
+    padding: 10px 15px;
+    color: #FFFFFF;
+}
+nav ul ul li:hover {
+    background: #4B4D52;
+}
 /* Navigation menu behaviour - end */
 
 #mainSection {
     background-color: #F6F6F4;
-    border-radius: 10px;
     padding: 10px 10px;
 }
 
@@ -136,15 +135,15 @@ nav ul ul {
 
 #mainSection article {
     /*background: #FFFFFF; */
-   	font-family: Helvetica, Serif;
-   	font-size: 1.2em;
+    font-family: Helvetica, Serif;
+    font-size: 1.2em;
     border: 2px solid #D0CABF;
     border-radius: 10px;
     padding: 10px 10px;
     margin-bottom: 10px;
 }
-#mainSectin article:last-of-type {
-	margin-bottom: 0;
+#mainSection article:last-of-type {
+    margin-bottom: 0;
 }
 
 /* Styles for index.html Only */
@@ -159,32 +158,13 @@ nav ul ul {
     margin-right: 0;
 }
 
-.indexPage #mainSection article #imageChistin {
+.indexPage #mainSection article img, .indexPage #CompetitorsVideo {
     width: 90%;
     box-shadow: none;
     padding: 5px;
-    background-color: white;
-    border: 1px solid #B9B1A8;
-    margin-right: 5%;
-}
-
-.indexPage #mainSection article #CompetitorsVideo {
-    margin-bottom: 15px;
-    padding: 5px;
-    background-color: white;
+    background: white;
     border: 1px solid #B9B1A8;
     border-radius: 10px;
-    margin-left: 5%;
-}
-
-.indexPage #mainSection article #satsumaMission {
-    width: 65%;
-    box-shadow: none;
-    padding: 5px;
-    background-color: white;
-    border: 1px solid #B9B1A8;
-    margin-left: 11%;
-    margin-right: 10%
 }
 
 /* Styles for index.html Only END */
@@ -228,9 +208,9 @@ nav ul ul {
     padding: 10px;
 }
 
-	#mainFooter p, #mainFooter.wrapper span {
-		color: white;
-	}
+#mainFooter p, #mainFooter.wrapper span {
+    color: white;
+}
 
 .clearfix:after {
     content: '';
@@ -295,20 +275,20 @@ h2 {
     color: #ffff00;
 }
 
-    /* class="page-list" -> all lists used over the website */
+/* class="page-list" -> all lists used over the website */
 .page-list {
-	color: #3D3C3A;
-	font-style: italic;
+    color: #3D3C3A;
+    font-style: italic;
 }
 
 /* Images floated left or right */
-.align-right { 
-	float:right; margin: 0 0 15px 15px; 
+.align-right {
+    float:right; margin: 0 0 15px 15px;
     border-radius: 10px;
     box-shadow: 5px 5px 5px #696969;
 }
-.align-left { 
-	float:left; margin: 0 15px 15px 0;
+.align-left {
+    float:left; margin: 0 15px 15px 0;
     border-radius: 10px;
     box-shadow: 5px 5px 5px #696969;
 }
@@ -316,210 +296,216 @@ h2 {
 
 /* стила за бутоните - "запиши се" и т.н. */
 .btn {
-	text-align: center;
-	margin: 30px auto 10px auto;
+    text-align: center;
+    margin: 30px auto 10px auto;
 }
-	.btn a {
-		text-decoration: none;
-		font-family: sans-serif;
-		color: #F6F6F4;
-		font-size: 1.1em;
-		background-color: #912900;
-		padding: 10px;
-		border-radius: 30px;
-	}
-	.btn a:hover {
-		background-color: #FF662A;
-		cursor:pointer;
-	}
+.btn a {
+    text-decoration: none;
+    font-family: sans-serif;
+    color: #F6F6F4;
+    font-size: 1.1em;
+    background-color: #912900;
+    padding: 10px;
+    border-radius: 30px;
+    -moz-box-shadow: 0 5px 0 #6e2200;
+    -webkit-box-shadow: 0 5px 0 #6e2200;
+    box-shadow: 0 5px 0 #6e2200;
+}
+.btn a:hover {
+    background-color: #FF662A;
+    cursor:pointer;
+    -moz-box-shadow: 0 5px 0 #b9592a;
+    -webkit-box-shadow: 0 5px 0 #b9592a;
+    box-shadow: 0 5px 0 #b9592a;
+}
 
 /* стила за формите в contacts.html */
 #topForm {
-	width: 450px;
-	float:left;
+    width: 450px;
+    float:left;
 }
-#contact fieldset {
-	border: none;
+.contactsPage fieldset {
+    border: none;
 }
-	.field {
-		/*font-family: Helvetica, Serif;*/
-		display: block;
-		margin: 10px 5px;
-		width: 210px;
-	}
-		.field input, .field textarea {
-			width: 200px;
-			height: 25px;
-			padding-left: 5px;
-			margin-top: 3px;
-			border: none;
-			border-radius: 7px;
-			background-color: #FFFFFF;
-			box-shadow: 0 2px 5px #888;
-		}
-		.field textarea {
-			width: 400px;
-			height: 100px;
-		}
-		.field label {
-			margin: 5px;
-		}
+.field {
+    /*font-family: Helvetica, Serif;*/
+    display: block;
+    margin: 10px 5px;
+    width: 210px;
+}
+.field input, .field textarea {
+    width: 200px;
+    height: 25px;
+    padding-left: 5px;
+    margin-top: 3px;
+    border: none;
+    border-radius: 7px;
+    background-color: #FFFFFF;
+    box-shadow: 0 2px 5px #888;
+}
+.field textarea {
+    width: 400px;
+    height: 100px;
+}
+.field label {
+    margin: 5px;
+}
 #credentials {
-	float:right;
-	background-color: #FFFFFF;
-	border-radius: 7px;
-	box-shadow: 0 2px 5px #888;
-	padding: 10px 20px;
+    float:right;
+    background-color: #FFFFFF;
+    border-radius: 7px;
+    box-shadow: 0 2px 5px #888;
+    padding: 10px 20px;
 }
-	#credentials p {
-	    font-family: Helvetica, Serif;
-	    font-size: 1.2em;
-	    font-style: italic;
-	    padding-bottom: 15px;
-	}
-	    #credentials p:first-letter {
-		margin-left: 0;
-	    }
-	#credentials h2 {
-		text-align: center;
-	}
-	#credentials h3 {
-		margin-bottom: -10px;
-	}
+#credentials p {
+    font-family: Helvetica, Serif;
+    font-size: 1.2em;
+    font-style: italic;
+    padding-bottom: 15px;
+}
+#credentials p:first-letter {
+    margin-left: 0;
+}
+#credentials h2 {
+    text-align: center;
+}
+#credentials h3 {
+    margin-bottom: -10px;
+}
 #bottomForm {
-	clear: both;
-	padding-top: 40px;
-	width: 700px;
+    clear: both;
+    padding-top: 40px;
+    width: 700px;
 }
-	#bottomForm .field {
-		display: inline-block;
-	}
-		input[type=radio] {
-			box-shadow: none;
-			width: 15px;
-			height: 15px;
-		}
+#bottomForm .field {
+    display: inline-block;
+}
+input[type=radio] {
+    box-shadow: none;
+    width: 15px;
+    height: 15px;
+}
 .submitBtn {
-	background-color: gray;
-	color: white;
-	width: 200px;
-	height: 30px;
-	margin-left: 7px;
-	border-radius: 7px;
-	/*font-family: sans-serif; */
-	font-size: 1.2em;
-	box-shadow: 0px 2px 5px #888;
+    background-color: gray;
+    color: white;
+    width: 200px;
+    height: 30px;
+    margin-left: 7px;
+    border-radius: 7px;
+    /*font-family: sans-serif; */
+    font-size: 1.2em;
+    box-shadow: 0px 2px 5px #888;
 }
-	.submitBtn:hover {
-		background-color: #912900;
-	}
+.submitBtn:hover {
+    background-color: #912900;
+}
 /* contacts.html style END */
 
 
 /* trainers.html css */
 
-#trainers nav ul li {
-    border-radius: 10px;    
+.trainersPage #mainSection nav ul li {
+    border-radius: 10px;
     padding: 5px 25px 5px 5px;
 }
-#trainers nav ul li a:visited {
-    color: grey;   
+.trainersPage #mainSection nav ul li a:visited {
+    color: grey;
 }
-#trainers nav header {
+.trainersPage #mainSection nav header {
     text-decoration: underline;
     font-size: 1.5em;
-    font-weight: bold;    
+    font-weight: bold;
 }
-#trainers li:first-child:hover {
-    background: blue;    
-}
-
-#trainers li:nth-child(2):hover {
-    background: green;   
+.trainersPage #mainSection li:first-child:hover {
+    background: blue;
 }
 
-#trainers li:nth-child(3):hover {
-    background: red;   
+.trainersPage #mainSection li:nth-child(2):hover {
+    background: green;
 }
 
-#trainers li:nth-child(4):hover {
-    background: pink;   
+.trainersPage #mainSection li:nth-child(3):hover {
+    background: red;
 }
 
-#trainers li:nth-child(5):hover {
-    background: yellow;   
+.trainersPage #mainSection li:nth-child(4):hover {
+    background: pink;
 }
 
-#trainers li:nth-child(6):hover {
-    background: orange;   
+.trainersPage #mainSection li:nth-child(5):hover {
+    background: yellow;
 }
-#trainers a {
+
+.trainersPage #mainSection li:nth-child(6):hover {
+    background: orange;
+}
+.trainersPage #mainSection a {
     text-decoration: none;
     font-size: 1.2em;
     color: black;
     margin: 0px 5px;
 }
 
-#trainers article {
-	background-color: rgba(230,230,230, 0.99); 	
+.trainersPage #mainSection article {
+    background-color: rgba(230,230,230, 0.99);
     font-size: 1.1em;
     border-radius: 20px;
     padding: 15px;
     margin: 5px 10px;
 }
-    #trainers article div {
-	height: 9em;
-    }
+.trainersPage #mainSection article div {
+    height: 9em;
+}
 
-#trainers section {
-    padding: 5px; 
+.trainersPage #mainSection #mainSection section {
+    padding: 5px;
     border-radius: 20px;
     padding: 0 15px 15px 15px;
     width: 75%;
     margin: 0;
 }
 
-#trainers article header {
+.trainersPage #mainSection article header {
     padding: 10px;
     margin: 0;
     border-radius: 10px;
     font-size: 1.8em;
 }
 
-#trainers #VGolev {
+.trainersPage #mainSection #VGolev {
     color: white;
     background: blue;
 }
-#trainers #APavlov {
+.trainersPage #mainSection #APavlov {
     background: green;
 }
-#trainers #EAtanasov {
+.trainersPage #mainSection #EAtanasov {
     background: red;
 }
 
-#trainers #SVasileva {
+.trainersPage #mainSection #SVasileva {
     background: pink;
     color: white;
 }
-#trainers #GTeoharov {
+.trainersPage #mainSection #GTeoharov {
     color: white;
     background: yellow;
 }
 
-#trainers #FBoyadzhiyski {
+.trainersPage #mainSection #FBoyadzhiyski {
     background: orange;
     color: white;
 }
-#trainers article a {
+.trainersPage #mainSection article a {
     font-style:italic;
     color: #808080;
 }
-#trainers div:first-line {
+.trainersPage #mainSection div:first-line {
     font-style: italic;
 }
 
-#trainers div:first-letter {
-    font-size: 3em;    
+.trainersPage #mainSection div:first-letter {
+    font-size: 3em;
 }
 
 /*PARTNERS PAGE STYLING START*/
@@ -532,4 +518,49 @@ h2 {
 }
 
 
-/*PARTNERS PAGE STYLING START*/
+/*PARTNERS PAGE STYLING END*/
+
+/* CSS Styles for extra large screens */
+@media only screen and (min-width: 1600px) {
+    body {
+        background: purple;
+    }
+}
+
+/* CSS Styles for smaller screens */
+@media only screen and (min-width: 960px) and (max-width: 1024px) {
+    body {
+        background: green;
+    }
+}
+
+/* CSS Styles for tablets */
+@media only screen and (min-width: 768px) and (max-width: 960px) {
+    body {
+        background: tomato;
+    }
+}
+
+/* CSS Styles for smaller tablets */
+@media only screen and (min-width: 640px) and (max-width: 768px) {
+    body {
+        background: blue;
+    }
+
+}
+
+/* CSS Styles for mobile phones */
+@media only screen and (min-width: 480px) and (max-width: 640px) {
+    body {
+        background: yellow;
+    }
+
+}
+
+/* CSS Styles for small mobile phones */
+@media only screen and (max-width:320px) {
+    body {
+        background: black;
+    }
+
+}
