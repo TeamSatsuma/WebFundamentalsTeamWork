@@ -14,6 +14,9 @@ body {
 p {
     color: #3D3C3A;
 }
+    p:first-letter {
+	margin-left: 3em;
+    }
 
 .wrapper {
     max-width: 1140px;
@@ -369,11 +372,14 @@ h2 {
 	padding: 10px 20px;
 }
 	#credentials p {
-		font-family: Helvetica, Serif;
+	    font-family: Helvetica, Serif;
 	    font-size: 1.2em;
-		font-style: italic;
-		padding-bottom: 15px;
+	    font-style: italic;
+	    padding-bottom: 15px;
 	}
+	    #credentials p:first-letter {
+		margin-left: 0;
+	    }
 	#credentials h2 {
 		text-align: center;
 	}
@@ -461,6 +467,10 @@ h2 {
     padding: 15px;
     margin: 5px 10px;
 }
+    #trainers article div {
+	height: 9em;
+    }
+
 #trainers section {
     padding: 5px; 
     border-radius: 20px;
