@@ -20,7 +20,7 @@ p {
 
 .wrapper {
     max-width: 1140px;
-	min-width: 1100px;
+	min-width: 200px;
     margin: 0 auto;
 }
 #mainHeader {
@@ -522,3 +522,14 @@ h2 {
     font-size: 3em;    
 }
 
+/*PARTNERS PAGE STYLING START*/
+#partners {
+    margin: 5% auto;
+    min-height: 600px;
+    max-width: 100%;
+    min-width: 10px;
+    border: 1px solid orangered;
+}
+
+
+/*PARTNERS PAGE STYLING START*/
