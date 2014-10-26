@@ -433,9 +433,7 @@ input[type=radio] {
 	#map-frame section h3 {
 	    margin-bottom: -10px;
 	}
-.contactsPage #credentials {
-	    display: none;
-	}
+
 
 /* contacts.html style END */
 
@@ -664,10 +662,7 @@ input[type=radio] {
     .wrapper {
         width: 1200px;
     }
-    
-    .contactsPage #credentials {
-	    display: none;
-	}
+ 
 }
 
 /* CSS Styles for smaller screens */
@@ -678,10 +673,7 @@ input[type=radio] {
     .wrapper {
 	width: 100%;
     }
-    
-    .contactsPage #credentials {
-	    display: none;
-	}
+
 }
 
 /* CSS Styles for tablets */
@@ -692,10 +684,7 @@ input[type=radio] {
     .wrapper {
 	width: 100%;
     }
-    
-    .contactsPage #credentials {
-	    display: none;
-	}
+ 
 }
 
 /* CSS Styles for smaller tablets */
@@ -710,13 +699,19 @@ input[type=radio] {
     .contactsPage #bottomForm {
 	width: 470px;
     }
+	.contactsPage #map-frame {
+	    position: static;
+	    height: 100%;
+	}
+	.contactsPage #map iframe {
+	    position: static;
+	    height: 100%;
+	}
 	.contactsPage #map-frame section {
-	    display: none;
+	    margin-top: 1em;
+	    position: static;
 	}
-	.contactsPage #credentials {
-	    display: block;
-	}
-
+	
 }
 
 /* CSS Styles for mobile phones */
@@ -731,11 +726,17 @@ input[type=radio] {
     .contactsPage #bottomForm {
 	width: 470px;
     }
-	.contactsPage #map-frame section {
-	    display: none;
+	.contactsPage #map-frame {
+	    position: static;
+	    height: 100%;
 	}
-	.contactsPage #credentials {
-	    display: block;
+	.contactsPage #map iframe {
+	    position: static;
+	    height: 100%;
+	}
+	.contactsPage #map-frame section {
+	    margin-top: 1em;
+	    position: static;
 	}
 
 }
@@ -756,11 +757,17 @@ input[type=radio] {
 	    width: 300px;
 	    height: 100px;
 	}
-	.contactsPage #map-frame section {
-	    display: none;
+	.contactsPage #map-frame {
+	    position: static;
+	    height: 100%;
 	}
-	.contactsPage #credentials {
-	    display: block;
+	.contactsPage #map iframe {
+	    position: static;
+	    height: 100%;
+	}
+	.contactsPage #map-frame section {
+	    margin-top: 1em;
+	    position: static;
 	}
 
 }
@@ -781,11 +788,17 @@ input[type=radio] {
 	    width: 250px;
 	    height: 100px;
 	}
+	.contactsPage #map-frame {
+	    position: static;
+	    height: 100%;
+	}
+	.contactsPage #map iframe {
+	    position: static;
+	    height: 100%;
+	}
 	.contactsPage #map-frame section {
-	    display: none;
-	    }
-	.contactsPage #credentials {
-	    display: block;
+	    margin-top: 1em;
+	    position: static;
 	}
 
 }
