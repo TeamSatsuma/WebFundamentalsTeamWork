@@ -613,8 +613,38 @@ input[type=radio] {
     max-height: 120px;
 }
 
-
 /*PARTNERS PAGE STYLING END*/
+
+
+/*WORK PAGE STYLING START*/
+
+.construction {
+    width: 600px;
+    height: 313px;
+    float: left;
+    margin-right: 4%;
+    margin-bottom: 10%;
+    margin-top: 3%;
+}
+
+.workPage #work-under-construction {
+    font-size: 1.3rem;;
+    display: inline-block;
+    max-width: 320px;
+    font-style: italic;
+    color: #912900;
+    margin-top: 3%;
+}
+
+.workPage strong {
+    text-decoration: underline;
+}
+
+
+
+
+/*WORK PAGE STYLING END*/
+
 
 /* CSS Styles for extra large screens */
 @media only screen and (min-width: 1600px) {
