@@ -22,9 +22,12 @@ img {
 }
 
 .wrapper {
-    width: 960px;
+    min-width: 200px;
+    max-width: 1200px;
+    /*width: 960px;*/
     margin: 0 auto;
 }
+
 #mainHeader {
     padding: 10px;
     border-bottom: 2px solid #D0CABF;
@@ -510,9 +513,9 @@ input[type=radio] {
 }
 
 /*PARTNERS PAGE STYLING START*/
+
 #partners-container {
     padding: 2%;
-    /*margin: 2% auto;*/
     min-height: 600px;
     max-width: 100%;
     min-width: 190px;
@@ -525,10 +528,31 @@ input[type=radio] {
     min-width: 99%;
     min-height: 200px;
     display: inline-block;
+    border-bottom-left-radius: 30px;
+}
+
+#gold.partner-section {
     border-left: 2px solid gold;
     border-bottom: 2px solid gold;
-    border-bottom-left-radius: 20px;
+    margin-bottom: 3%;
 }
+
+#silver.partner-section {
+    border-left: 2px solid #c0c0c0;
+    border-bottom: 2px solid #c0c0c0;
+    margin-bottom: 3%
+}
+
+#silver.partner-section {
+    border-left: 2px solid #c0c0c0;
+    border-bottom: 2px solid #c0c0c0;
+}
+
+#bronze.partner-section {
+    border-left: 2px solid #cd7f32;
+    border-bottom: 2px solid #cd7f32;
+}
+
 /*PARTNERS PAGE STYLING END*/
 
 /* CSS Styles for extra large screens */
