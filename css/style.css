@@ -514,6 +514,7 @@ input[type=radio] {
 
 #partners-container {
     padding: 2%;
+    margin: 2%;
     min-height: 600px;
     max-width: 100%;
     min-width: 190px;
@@ -554,25 +555,20 @@ input[type=radio] {
 }
 
 #gold.partner-section {
-    border-left: 2px solid #f7cf00;
-    border-bottom: 2px solid #f7cf00;
+    border-left: 3px solid #f7cf00;
+    border-bottom: 3px solid #f7cf00;
     margin-bottom: 3%;
 }
 
 #silver.partner-section {
-    border-left: 2px solid #c0c0c0;
-    border-bottom: 2px solid #c0c0c0;
+    border-left: 3px solid #c0c0c0;
+    border-bottom: 3px solid #c0c0c0;
     margin-bottom: 3%
 }
 
-#silver.partner-section {
-    border-left: 2px solid #c0c0c0;
-    border-bottom: 2px solid #c0c0c0;
-}
-
 #bronze.partner-section {
-    border-left: 2px solid #cd7f32;
-    border-bottom: 2px solid #cd7f32;
+    border-left: 3px solid #cd7f32;
+    border-bottom: 3px solid #cd7f32;
 }
 
 .partner {
