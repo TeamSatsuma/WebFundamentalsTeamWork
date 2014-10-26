@@ -1,11 +1,18 @@
 /* CSS Style for desktops > 1200px */
+
+/* Added some fonts from Google Fonts - 
+ * font-family: 'Poiret One', cursive; -> for h2
+ * font-family: 'Marck Script', cursive; -> for h3
+ */
+@import url(http://fonts.googleapis.com/css?family=Marck+Script|Poiret+One&subset=latin,cyrillic);
+
 body {
     font-size: 12px;
     background-color: #FFFFFF;
 }
 
 p {
-	color: #3D3C3A;
+    color: #3D3C3A;
 }
 
 .wrapper {
@@ -46,6 +53,11 @@ p {
 	padding: 20px 50px; 
 }
 
+article h3 {
+    font-family: 'Marck Script', cursive;
+    text-shadow: 4px 4px 4px #aaa;
+}
+
 /* Navigation menu behaviour - start */
 nav ul ul {
 	display: none;
@@ -54,15 +66,6 @@ nav ul ul {
 		display: block;
 	}
 nav ul {
-	/*background: #D0CABF;*/
-	/*
-	background: linear-gradient(top, #707070 0%, #3D3C3A 100%);
-	background: -moz-linear-gradient(top, #707070 0%, #3D3C3A 100%); 
-	background: -webkit-linear-gradient(top, #707070 0%,#3D3C3A 100%);
-	background: -webkit-linear-gradient(top, #707070 0%,#3D3C3A 100%);
-	background: -webkit-linear-gradient(top, #707070 0%,#3D3C3A 100%);
-	*/
-	/*box-shadow: 0px 0px 9px rgba(0,0,0,0.15);*/
 	padding: 0 20px;
 	border-radius: 10px;
 	list-style: none;
@@ -77,11 +80,6 @@ nav ul li {
 }
 	nav ul li:hover {
 		background: #B9B1A8;
-		/*
-		background: linear-gradient(top, #4f5964 0%, #5f6975 40%);
-		background: -moz-linear-gradient(top, #4f5964 0%, #5f6975 40%);
-		background: -webkit-linear-gradient(top, #4f5964 0%,#5f6975 40%);
-		*/
 	}
 		nav ul li:hover a {
 			color: #FFFFFF;
@@ -91,7 +89,7 @@ nav ul li a {
 	color: #4B4D52; text-decoration: none;
 }
 nav ul ul {
-	background: #B9B1A8;
+    background: #B9B1A8;
     border-top-left-radius: 1px;
     border-top-right-radius: 1px;
     border-bottom-left-radius: 10px;
@@ -130,7 +128,7 @@ nav ul ul {
     margin-left: 30%;
     margin-bottom: 3%;
     color: #912900;
-    font-style: italic;
+    text-shadow: 4px 4px 4px #aaa;
 }
 
 #mainSection article {
@@ -285,7 +283,9 @@ nav ul ul {
 }
 
 h2 {
+    font-family: 'Poiret One', cursive;
     color: #912900;
+    text-shadow: 4px 4px 4px #aaa;
 }
 
 #footerLink {
