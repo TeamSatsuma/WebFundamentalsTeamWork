@@ -54,7 +54,7 @@ img {
 }
 
 #mainNav {
-    padding-left:200px;
+    float: right;
     font-size: 14px;
     vertical-align: bottom;
 }
@@ -72,7 +72,7 @@ nav ul li:hover > ul {
     display: block;
 }
 nav ul {
-    padding: 0 20px;
+    padding: 0;
     border-radius: 10px;
     list-style: none;
     position: relative;
@@ -225,7 +225,6 @@ nav ul ul li:hover {
 #searchBox {
     float: right;
     border: 2px solid #D0CABF;
-    margin-right: 10px;
     border-radius: 5px;
     padding: 2px;
 }
