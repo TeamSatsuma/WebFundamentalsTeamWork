@@ -6,6 +6,7 @@
     <title>Emigrant UNIVERSITY</title>
     <link href="css/normalize.css" rel="stylesheet" />
     <link href="extra/slider/jquery.bxslider.css" rel="stylesheet" type="text/css" />
+    <link href="extra/dropdown/dropit.css" rel="stylesheet" type="text/css" />
     <link href="css/style.css" rel="stylesheet" />
 </head>
 <body class="indexPage">
@@ -37,7 +38,7 @@
                 </li>
                 <li>
                     <a href="about.html">
-                        За университета
+                        За университета &#x25BC;
                     </a>
                     <ul>
                         <li>
@@ -50,7 +51,7 @@
                 </li>
                 <li>
                     <a href="education.html">
-                        Обучения
+                        Обучения &#x25BC;
                     </a>
                     <ul>
                         <li>
@@ -153,12 +154,16 @@
 <script src="js/jquery-1.8.2.min.js"></script>
 <!-- bxSlider Javascript file -->
 <script src="extra/slider/jquery.bxslider.min.js"></script>
+<script src="extra/dropdown/dropit.js"></script>
 <script type="text/javascript">
     $(document).ready(function(){
         $('.bxslider').bxSlider({
             pager: false,
             auto: true
         });
+
+
+        $('#nav').dropit();
     });
 </script>
 </body>
