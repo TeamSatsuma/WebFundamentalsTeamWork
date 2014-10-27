@@ -725,7 +725,7 @@ input[type=radio] {
         height: auto;
         max-height: 200px;
     }
- 
+
 }
 
 /* CSS Styles for smaller tablets */
@@ -801,7 +801,13 @@ input[type=radio] {
 		margin: 0;
 		font-size: 1.5em;
 	}
-	
+	.construction {
+	    width: 95%;
+	}
+	.construction div img {
+	    width: 100%;
+	}
+ 
 }
 
 /* CSS Styles for mobile phones */
@@ -876,6 +882,12 @@ input[type=radio] {
 		padding: 0px;
 		margin: 0;
 		font-size: 1.5em;
+	}
+	.construction {
+	    width: 95%;
+	}
+	.construction div img {
+	    width: 100%;
 	}
 
 }
@@ -957,6 +969,12 @@ input[type=radio] {
 		margin: 0;
 		font-size: 1.5em;
 	}
+	.construction {
+	    width: 95%;
+	}
+	.construction div img {
+	    width: 100%;
+	}
 
 }
 
@@ -1036,6 +1054,12 @@ input[type=radio] {
 		padding: 0px;
 		margin: 0;
 		font-size: 1.1em;
+	}
+	.construction {
+	    width: 95%;
+	}
+	.construction div img {
+	    width: 100%;
 	}
 
 }
