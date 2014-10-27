@@ -455,28 +455,34 @@ input[type=radio] {
     font-size: 1.5em;
     font-weight: bold;
 }
-.trainersPage #mainSection li:first-child:hover {
-    background: blue;
+.trainersPage #mainSection li.train:first-child:hover {
+    background: #C6D2FF;
 }
 
-.trainersPage #mainSection li:nth-child(2):hover {
-    background: green;
+.trainersPage #mainSection li.train:nth-child(2):hover {
+    background: #D8FFD1;
 }
 
-.trainersPage #mainSection li:nth-child(3):hover {
-    background: red;
+.trainersPage #mainSection li.train:nth-child(3):hover {
+    background: #B7FFFA;
 }
 
-.trainersPage #mainSection li:nth-child(4):hover {
-    background: pink;
+.trainersPage #mainSection li.train:nth-child(4):hover {
+    background: #FFC6DB;
 }
 
-.trainersPage #mainSection li:nth-child(5):hover {
-    background: yellow;
+.trainersPage #mainSection li.train:nth-child(5):hover {
+    background: #FFD3B5;
 }
 
-.trainersPage #mainSection li:nth-child(6):hover {
-    background: orange;
+.trainersPage #mainSection li.train:nth-child(6):hover {
+    background: #FBFFDB;
+}
+.trainersPage #mainSection li.assist:first-child:hover {
+    background: #DBC9FF;
+}
+.trainersPage #mainSection li.assist:nth-child(2):hover {
+    background: #FFD2AD;
 }
 .trainersPage #mainSection a {
     text-decoration: none;
@@ -513,26 +519,34 @@ input[type=radio] {
 
 .trainersPage #mainSection #VGolev {
     color: white;
-    background: blue;
+    background: #C6D2FF;
 }
 .trainersPage #mainSection #APavlov {
-    background: green;
+    background: #D8FFD1;
 }
 .trainersPage #mainSection #EAtanasov {
-    background: red;
+    background: #B7FFFA;
 }
 
 .trainersPage #mainSection #SVasileva {
-    background: pink;
+    background: #FFC6DB;
     color: white;
 }
 .trainersPage #mainSection #GTeoharov {
     color: white;
-    background: yellow;
+    background: #FFD3B5;
 }
 
 .trainersPage #mainSection #FBoyadzhiyski {
-    background: orange;
+    background: #FBFFDB;
+    color: white;
+}
+.trainersPage #mainSection #Nakov {
+    color: white;
+    background: #DBC9FF;
+}
+.trainersPage #mainSection #Angel {
+    background: #FFD2AD;
     color: white;
 }
 .trainersPage #mainSection article a {
