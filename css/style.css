@@ -307,15 +307,17 @@ h2 {
 /* стила за бутоните - "запиши се" и т.н. */
 .btn {
     text-align: center;
-    margin: 30px auto 10px auto;
+    clear: both;
 }
 .btn a {
+    display: inline-block;
+    margin: 30px auto;
     text-decoration: none;
     font-family: sans-serif;
     color: #F6F6F4;
-    font-size: 1.1em;
+    font-size: 1.4em;
     background-color: #912900;
-    padding: 10px;
+    padding: 20px 40px;
     border-radius: 30px;
     -moz-box-shadow: 0 5px 0 #6e2200;
     -webkit-box-shadow: 0 5px 0 #6e2200;
