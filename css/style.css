@@ -735,6 +735,11 @@ input[type=radio] {
     }
 	.dropit .dropit-submenu {
 		position: static;
+		border
+	}
+	nav ul ul li:last-of-type {
+		border-bottom-left-radius: none;
+		border-bottom-right-radius: none;
 	}
     #mainNav > ul > li {
         clear: both;
@@ -787,7 +792,15 @@ input[type=radio] {
     }
     nav ul {
         display: block;
-    }
+    }	
+	.dropit .dropit-submenu {
+		position: static;
+		border
+	}
+	nav ul ul li:last-of-type {
+		border-bottom-left-radius: none;
+		border-bottom-right-radius: none;
+	}
     #mainNav > ul > li {
         clear: both;
         float: none;
@@ -839,7 +852,15 @@ input[type=radio] {
     }
     nav ul {
         display: block;
-    }
+    }	
+	.dropit .dropit-submenu {
+		position: static;
+		border
+	}
+	nav ul ul li:last-of-type {
+		border-bottom-left-radius: none;
+		border-bottom-right-radius: none;
+	}
     #mainNav > ul > li {
         clear: both;
         float: none;
@@ -896,6 +917,14 @@ input[type=radio] {
     nav ul {
         display: block;
     }
+	.dropit .dropit-submenu {
+		position: static;
+		border
+	}
+	nav ul ul li:last-of-type {
+		border-bottom-left-radius: none;
+		border-bottom-right-radius: none;
+	}
     #mainNav > ul > li {
         clear: both;
         float: none;
