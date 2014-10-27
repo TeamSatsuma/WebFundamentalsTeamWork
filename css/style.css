@@ -443,14 +443,14 @@ input[type=radio] {
 
 /* trainers.html css */
 
-.trainersPage #mainSection nav ul li {
+.trainersPage #mainSection nav ul li , .educationPage #mainSection nav ul li{
     border-radius: 10px;
     padding: 5px 25px 5px 5px;
 }
-.trainersPage #mainSection nav ul li a:visited {
+.trainersPage #mainSection nav ul li a:visited , .educationPage  #mainSection nav ul li a:visited {
     color: grey;
 }
-.trainersPage #mainSection nav header {
+.trainersPage #mainSection nav header, .educationPage #mainSection nav header{
     text-decoration: underline;
     font-size: 1.5em;
     font-weight: bold;
@@ -481,6 +481,7 @@ input[type=radio] {
 .trainersPage #mainSection li.assist:first-child:hover {
     background: #DBC9FF;
 }
+
 .trainersPage #mainSection li.assist:nth-child(2):hover {
     background: #FFD2AD;
 }
