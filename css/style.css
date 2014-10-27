@@ -682,7 +682,8 @@ input[type=radio] {
         background: tomato;
     }
     .wrapper {
-	width: 100%;
+	    max-width: 960px;
+        min-width: 768px;
     }
  
 }
@@ -693,11 +694,12 @@ input[type=radio] {
         background: blue;
     }
     .wrapper {
-	width: 100%;
+	    max-width: 768px;
+        min-width: 640px;
     }
     
     .contactsPage #bottomForm {
-	width: 470px;
+	    width: 470px;
     }
 	.contactsPage #map-frame {
 	    position: static;
@@ -720,11 +722,12 @@ input[type=radio] {
         background: yellow;
     }
     .wrapper {
-	width: 100%;
+        max-width: 640px;
+        min-width: 480px;
     }
     
     .contactsPage #bottomForm {
-	width: 470px;
+	    width: 470px;
     }
 	.contactsPage #map-frame {
 	    position: static;
@@ -747,11 +750,12 @@ input[type=radio] {
         background: orange;
     }
     .wrapper {
-	width: 100%;
+	    max-width: 480px;
+        min-width: 320px;
     }
     
     .contactsPage #bottomForm {
-	width: 300px;
+	    width: 300px;
     }
 	.contactsPage .field textarea {
 	    width: 300px;
@@ -778,11 +782,12 @@ input[type=radio] {
         background: black;
     }
     .wrapper {
-	width: 100%;
+	    max-width: 320px;
+        min-width: 240px;
     }
     
     .contactsPage #bottomForm {
-	width: 300px;
+	    width: 300px;
     }     
 	.contactsPage .field textarea {
 	    width: 250px;
