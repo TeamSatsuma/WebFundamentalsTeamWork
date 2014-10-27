@@ -789,7 +789,7 @@ input[type=radio] {
 	.trainersPage #mainSection article div {
 		height: 10em;
 	}
-	.trainersPage #mainSection article header {
+	.trainersPage #mainSection article header, .educationPage #mainSection article header {
 		padding: 0px;
 		margin: 0;
 		font-size: 1.5em;
@@ -865,7 +865,7 @@ input[type=radio] {
 	.trainersPage #mainSection article div {
 		height: 14em;
 	}
-	.trainersPage #mainSection article header {
+	.trainersPage #mainSection article header, .educationPage #mainSection article header {
 		padding: 0px;
 		margin: 0;
 		font-size: 1.5em;
@@ -945,7 +945,7 @@ input[type=radio] {
 	.trainersPage #mainSection article div {
 		height: 25em;
 	}
-	.trainersPage #mainSection article header {
+	.trainersPage #mainSection article header, .educationPage #mainSection article header {
 		padding: 0px;
 		margin: 0;
 		font-size: 1.5em;
@@ -1025,7 +1025,7 @@ input[type=radio] {
 	.trainersPage #mainSection article div {
 		height: 32em;
 	}
-	.trainersPage #mainSection article header {
+	.trainersPage #mainSection article header, .educationPage #mainSection article header {
 		padding: 0px;
 		margin: 0;
 		font-size: 1.1em;
