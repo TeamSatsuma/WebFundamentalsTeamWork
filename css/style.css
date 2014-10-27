@@ -59,6 +59,10 @@ img {
     vertical-align: bottom;
 }
 
+article {
+    overflow: hidden;
+}
+
 article h3 {
     font-family: 'Marck Script', cursive;
     text-shadow: 4px 4px 4px #aaa;
@@ -339,6 +343,9 @@ h2 {
 .contactsPage fieldset {
     border: none;
 }
+.contactsPage form {
+    overflow: hidden;
+}
 .field {
     /*font-family: Helvetica, Serif;*/
     display: block;
@@ -383,7 +390,6 @@ input[type=radio] {
     height: 30px;
     margin-left: 7px;
     border-radius: 7px;
-    /*font-family: sans-serif; */
     font-size: 1.2em;
     box-shadow: 0px 2px 5px #888;
 }
@@ -662,6 +668,7 @@ input[type=radio] {
     font-style: italic;
     color: #912900;
     margin-top: 3%;
+    overflow: hidden;
 }
 
 .workPage strong {
@@ -878,7 +885,7 @@ input[type=radio] {
     body {
     }
     .wrapper {
-	    max-width: 480px;
+	max-width: 480px;
         min-width: 320px;
     }
     #mainNav {
@@ -889,8 +896,8 @@ input[type=radio] {
         display: block;
     }	
 	.dropit .dropit-submenu {
-		position: static;
-		border
+	    position: static;
+	    border
 	}
 	nav ul ul li:last-of-type {
 		border-bottom-left-radius: none;
