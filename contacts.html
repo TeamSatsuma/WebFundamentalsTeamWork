@@ -187,8 +187,13 @@ src="https://www.google.com/maps/embed/v1/place?q=%D1%83%D0%BB%D0%B8%D1%86%D0%B0
             </p>
         </div>
     </footer>
-    <script type="text/javascript">
-        $('#nav').dropit();
-    </script>
+	<!-- jQuery library -->
+	<script src="js/jquery-1.8.2.min.js"></script>
+	<script src="extra/dropdown/dropit.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('#nav').dropit();
+		});
+	</script>
 </body>
 </html>

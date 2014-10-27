@@ -8,11 +8,6 @@
  */
 
 /* These styles assume you are using ul and li */
-.dropit {
-    list-style: none;
-	padding: 0;
-	margin: 0;
-}
 .dropit .dropit-trigger { position: relative; }
 .dropit .dropit-submenu {
     position: absolute;

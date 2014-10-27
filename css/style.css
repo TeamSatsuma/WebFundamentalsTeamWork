@@ -733,6 +733,9 @@ input[type=radio] {
     nav ul {
         display: block;
     }
+	.dropit .dropit-submenu {
+		position: static;
+	}
     #mainNav > ul > li {
         clear: both;
         float: none;
