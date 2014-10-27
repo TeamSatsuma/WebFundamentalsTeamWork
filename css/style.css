@@ -25,6 +25,7 @@ img {
     max-width: 960px;
     min-width: 400px;
     margin: 0 auto;
+    box-sizing: border-box;
 }
 
 #mainHeader {
@@ -668,10 +669,10 @@ input[type=radio] {
 /* CSS Styles for smaller screens */
 @media only screen and (min-width: 960px) and (max-width: 1024px) {
     body {
-        background: green;
     }
     .wrapper {
-	width: 100%;
+        max-width: 1024px;
+	    min-width: 960px;
     }
 
 }
@@ -679,11 +680,24 @@ input[type=radio] {
 /* CSS Styles for tablets */
 @media only screen and (min-width: 768px) and (max-width: 960px) {
     body {
-        background: tomato;
     }
     .wrapper {
 	    max-width: 960px;
         min-width: 768px;
+    }
+    #mainNav {
+        clear: both;
+        float: none;
+        text-align: center;
+    }
+    .indexPage #mainSection article {
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .indexPage #mainSection article img, .indexPage #CompetitorsVideo {
+        width: 30%;
+        height: auto;
+        max-height: 200px;
     }
  
 }
@@ -691,11 +705,35 @@ input[type=radio] {
 /* CSS Styles for smaller tablets */
 @media only screen and (min-width: 640px) and (max-width: 768px) {
     body {
-        background: blue;
     }
     .wrapper {
 	    max-width: 768px;
         min-width: 640px;
+    }
+    #mainNav {
+        clear: both;
+        float: none;
+    }
+    nav ul {
+        display: block;
+    }
+    #mainNav > ul > li {
+        clear: both;
+        float: none;
+        display: block;
+        text-align: center;
+    }
+    .topImage {
+        display: none;
+    }
+    .indexPage #mainSection article {
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .indexPage #mainSection article img, .indexPage #CompetitorsVideo {
+        width: 40%;
+        height: auto;
+        max-height: 200px;
     }
     
     .contactsPage #bottomForm {
@@ -719,11 +757,35 @@ input[type=radio] {
 /* CSS Styles for mobile phones */
 @media only screen and (min-width: 480px) and (max-width: 640px) {
     body {
-        background: yellow;
     }
     .wrapper {
         max-width: 640px;
         min-width: 480px;
+    }
+    #mainNav {
+        clear: both;
+        float: none;
+    }
+    nav ul {
+        display: block;
+    }
+    #mainNav > ul > li {
+        clear: both;
+        float: none;
+        display: block;
+        text-align: center;
+    }
+    .topImage {
+        display: none;
+    }
+    .indexPage #mainSection article {
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .indexPage #mainSection article img, .indexPage #CompetitorsVideo {
+        width: 50%;
+        height: auto;
+        max-height: 200px;
     }
     
     .contactsPage #bottomForm {
@@ -747,11 +809,35 @@ input[type=radio] {
 /* CSS Styles for medium mobile phones */
 @media only screen and (min-width: 320px) and (max-width: 480px) {
     body {
-        background: orange;
     }
     .wrapper {
 	    max-width: 480px;
         min-width: 320px;
+    }
+    #mainNav {
+        clear: both;
+        float: none;
+    }
+    nav ul {
+        display: block;
+    }
+    #mainNav > ul > li {
+        clear: both;
+        float: none;
+        display: block;
+        text-align: center;
+    }
+    .topImage {
+        display: none;
+    }
+    .indexPage #mainSection article {
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .indexPage #mainSection article img, .indexPage #CompetitorsVideo {
+        width: 100%;
+        height: auto;
+        max-height: 200px;
     }
     
     .contactsPage #bottomForm {
@@ -779,11 +865,35 @@ input[type=radio] {
 /* CSS Styles for small mobile phones */
 @media only screen and (max-width:320px) {
     body {
-        background: black;
     }
     .wrapper {
 	    max-width: 320px;
         min-width: 240px;
+    }
+    #mainNav {
+        clear: both;
+        float: none;
+    }
+    nav ul {
+        display: block;
+    }
+    #mainNav > ul > li {
+        clear: both;
+        float: none;
+        display: block;
+        text-align: center;
+    }
+    .topImage {
+        display: none;
+    }
+    .indexPage #mainSection article {
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .indexPage #mainSection article img, .indexPage #CompetitorsVideo {
+        width: 100%;
+        height: auto;
+        max-height: 200px;
     }
     
     .contactsPage #bottomForm {
