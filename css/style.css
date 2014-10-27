@@ -443,14 +443,14 @@ input[type=radio] {
 
 /* trainers.html css */
 
-.trainersPage #mainSection nav ul li , .educationPage #mainSection nav ul li{
+.trainersPage #mainSection nav ul li , .educationPage #mainSection nav ul li {
     border-radius: 10px;
     padding: 5px 25px 5px 5px;
 }
-.trainersPage #mainSection nav ul li a:visited , .educationPage  #mainSection nav ul li a:visited {
+.trainersPage #mainSection nav ul li a:visited , .educationPage #mainSection nav ul li a:visited  {
     color: grey;
 }
-.trainersPage #mainSection nav header, .educationPage #mainSection nav header{
+.trainersPage #mainSection nav header, .educationPage #mainSection nav header {
     text-decoration: underline;
     font-size: 1.5em;
     font-weight: bold;
@@ -481,18 +481,17 @@ input[type=radio] {
 .trainersPage #mainSection li.assist:first-child:hover {
     background: #DBC9FF;
 }
-
 .trainersPage #mainSection li.assist:nth-child(2):hover {
     background: #FFD2AD;
 }
-.trainersPage #mainSection a {
+.trainersPage #mainSection a, .educationPage #mainSection a {
     text-decoration: none;
     font-size: 1.2em;
     color: black;
     margin: 0px 5px;
 }
 
-.trainersPage #mainSection article {
+.trainersPage #mainSection article, .educationPage #mainSection article {
     background-color: rgba(230,230,230, 0.99);
     font-size: 1.1em;
     border-radius: 20px;
@@ -503,7 +502,7 @@ input[type=radio] {
     height: 9em;
 }
 
-.trainersPage #mainSection #mainSection section {
+.trainersPage #mainSection #mainSection section, .educationPage #mainSection #mainSection section {
     padding: 5px;
     border-radius: 20px;
     padding: 0 15px 15px 15px;
@@ -511,7 +510,7 @@ input[type=radio] {
     margin: 0;
 }
 
-.trainersPage #mainSection article header {
+.trainersPage #mainSection article header, .educationPage #mainSection article header {
     padding: 10px;
     margin: 0;
     border-radius: 10px;
@@ -561,7 +560,10 @@ input[type=radio] {
 .trainersPage #mainSection div:first-letter {
     font-size: 3em;
 }
-
+.educationPage #mainSection .prof {
+    background: #FFD2AD;
+    color: white;
+}
 /*PARTNERS PAGE STYLING START*/
 
 #partners-container {
@@ -776,6 +778,22 @@ input[type=radio] {
 	    margin-top: 1em;
 	    position: static;
 	}
+	.trainersPage #mainSection div section article header h1 {
+		font-size : 1.5em;
+		margin : 0em, auto;
+	}
+	.trainersPage #mainSection div section article header h2 {
+		font-size : 5;
+		margin : 0em, auto;
+	}
+	.trainersPage #mainSection article div {
+		height: 10em;
+	}
+	.trainersPage #mainSection article header {
+		padding: 0px;
+		margin: 0;
+		font-size: 1.5em;
+	}
 	
 }
 
@@ -835,6 +853,22 @@ input[type=radio] {
 	.contactsPage #map-frame section {
 	    margin-top: 1em;
 	    position: static;
+	}
+	.trainersPage #mainSection div section article header h1 {
+		font-size : 1.5em;
+		margin : 0em, auto;
+	}
+	.trainersPage #mainSection div section article header h2 {
+		font-size : 1.2em;
+		margin : 0em, auto;
+	}
+	.trainersPage #mainSection article div {
+		height: 14em;
+	}
+	.trainersPage #mainSection article header {
+		padding: 0px;
+		margin: 0;
+		font-size: 1.5em;
 	}
 
 }
@@ -900,6 +934,22 @@ input[type=radio] {
 	    margin-top: 1em;
 	    position: static;
 	}
+	.trainersPage #mainSection div section article header h1 {
+		font-size : 1.5em;
+		margin : 0em, auto;
+	}
+	.trainersPage #mainSection div section article header h2 {
+		font-size : 5;
+		margin : 0em, auto;
+	}
+	.trainersPage #mainSection article div {
+		height: 25em;
+	}
+	.trainersPage #mainSection article header {
+		padding: 0px;
+		margin: 0;
+		font-size: 1.5em;
+	}
 
 }
 
@@ -963,6 +1013,22 @@ input[type=radio] {
 	.contactsPage #map-frame section {
 	    margin-top: 1em;
 	    position: static;
+	}
+	.trainersPage #mainSection div section article header h1 {
+		font-size : 1.1em;
+		margin : 0em, auto;
+	}
+	.trainersPage #mainSection div section article header h2 {
+		font-size : 1;
+		margin : 0em, auto;
+	}
+	.trainersPage #mainSection article div {
+		height: 32em;
+	}
+	.trainersPage #mainSection article header {
+		padding: 0px;
+		margin: 0;
+		font-size: 1.1em;
 	}
 
 }
