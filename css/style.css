@@ -133,12 +133,16 @@ nav ul ul li:hover {
     background-color: #F6F6F4;
     padding: 10px 10px;
 }
+#mainSection header {
+    overflow: hidden;
+}
 
 #mainSection header h1 {
     /*margin-left: 30%;*/
     text-align: center;
     color: #912900;
     text-shadow: 4px 4px 4px #aaa;
+    overflow: hidden;
 }
 
 #mainSection article {
