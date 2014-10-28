@@ -219,9 +219,7 @@ nav ul ul li:hover {
 }
 
 #mainFooter {
-    background: linear-gradient(to bottom, #8a9f28 0%, #547f14 100%);
-    border-top: 1px solid #b1c72b;
-    box-shadow: 0px -1px 0px #8a9f28;
+    background-color: #636363;
     padding: 10px;
 }
 
@@ -249,7 +247,10 @@ nav ul ul li:hover {
 
 }
 
-
+.news-date, .news-author {
+    font-style: italic;
+    color: #696969;
+}
 
 #cursing {
     margin-left: 20px;
@@ -691,7 +692,7 @@ input[type=radio] {
     .wrapper {
         width: 1200px;
     }
- 
+
 }
 
 /* CSS Styles for smaller screens */
@@ -771,7 +772,7 @@ input[type=radio] {
         height: auto;
         max-height: 200px;
     }
-    
+
     .contactsPage #bottomForm {
 	    width: 470px;
     }
@@ -809,7 +810,7 @@ input[type=radio] {
 	.construction div img {
 	    width: 100%;
 	}
- 
+
 }
 
 /* CSS Styles for mobile phones */
@@ -826,7 +827,7 @@ input[type=radio] {
     }
     nav ul {
         display: block;
-    }	
+    }
 	.dropit .dropit-submenu {
 		position: static;
 		border
@@ -853,7 +854,7 @@ input[type=radio] {
         height: auto;
         max-height: 200px;
     }
-    
+
     .contactsPage #bottomForm {
 	    width: 470px;
     }
@@ -908,7 +909,7 @@ input[type=radio] {
     }
     nav ul {
         display: block;
-    }	
+    }
 	.dropit .dropit-submenu {
 	    position: static;
 	    border
