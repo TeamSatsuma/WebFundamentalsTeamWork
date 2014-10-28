@@ -20,6 +20,13 @@ p {
 img {
     max-width: 100%;
 }
+p a {
+	color: blue;
+}
+p a:visited {
+	text-decoration: none;
+	color: blue;
+}
 
 .wrapper {
     max-width: 960px;
@@ -177,6 +184,7 @@ nav ul ul li:hover {
 }
 
 .indexPage #mainSection article img, .indexPage #CompetitorsVideo {
+	box-sizing: border-box;
     width: 90%;
     box-shadow: none;
     padding: 5px;
