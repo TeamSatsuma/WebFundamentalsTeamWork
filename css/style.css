@@ -145,17 +145,11 @@ nav ul ul li:hover {
     /*background: #FFFFFF; */
     font-family: Helvetica, Serif;
     font-size: 1.2em;
-    border: 4px solid #769f2a;
+    border: 2px solid #D0CABF;
     border-radius: 10px;
     padding: 10px 10px;
     margin-bottom: 10px;
 }
-
-.news-date, .news-author {
-    color: #808080;
-    font-style: italic;
-}
-
 #mainSection article:last-of-type {
     margin-bottom: 0;
 }
@@ -175,9 +169,9 @@ nav ul ul li:hover {
 .indexPage #mainSection article img, .indexPage #CompetitorsVideo {
     width: 90%;
     box-shadow: none;
-    padding: 7px;
+    padding: 5px;
     background: white;
-    border: 4px solid #8a9f28;
+    border: 1px solid #B9B1A8;
     border-radius: 10px;
 }
 
@@ -225,9 +219,7 @@ nav ul ul li:hover {
 }
 
 #mainFooter {
-    background: linear-gradient(to bottom, #8a9f28 0%, #547f14 100%);
-    border-top: 1px solid #b1c72b;
-    box-shadow: 0px -1px 0px #8a9f28;
+    background-color: #636363;
     padding: 10px;
 }
 
@@ -255,7 +247,10 @@ nav ul ul li:hover {
 
 }
 
-
+.news-date, .news-author {
+    font-style: italic;
+    color: #696969;
+}
 
 #cursing {
     margin-left: 20px;
@@ -336,9 +331,8 @@ h2 {
     box-shadow: 0 5px 0 #6e2200;
 }
 .btn a:hover {
-    background-color: #f27d2c;
+    background-color: #FF662A;
     cursor:pointer;
-    border: 4px solid #8a9f28;
     -moz-box-shadow: 0 5px 0 #b9592a;
     -webkit-box-shadow: 0 5px 0 #b9592a;
     box-shadow: 0 5px 0 #b9592a;
@@ -698,7 +692,7 @@ input[type=radio] {
     .wrapper {
         width: 1200px;
     }
- 
+
 }
 
 /* CSS Styles for smaller screens */
@@ -778,7 +772,7 @@ input[type=radio] {
         height: auto;
         max-height: 200px;
     }
-    
+
     .contactsPage #bottomForm {
 	    width: 470px;
     }
@@ -816,7 +810,7 @@ input[type=radio] {
 	.construction div img {
 	    width: 100%;
 	}
- 
+
 }
 
 /* CSS Styles for mobile phones */
@@ -833,7 +827,7 @@ input[type=radio] {
     }
     nav ul {
         display: block;
-    }	
+    }
 	.dropit .dropit-submenu {
 		position: static;
 		border
@@ -860,7 +854,7 @@ input[type=radio] {
         height: auto;
         max-height: 200px;
     }
-    
+
     .contactsPage #bottomForm {
 	    width: 470px;
     }
@@ -915,7 +909,7 @@ input[type=radio] {
     }
     nav ul {
         display: block;
-    }	
+    }
 	.dropit .dropit-submenu {
 	    position: static;
 	    border
