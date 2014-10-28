@@ -220,6 +220,8 @@ nav ul ul li:hover {
 
 #mainFooter {
     background: linear-gradient(to bottom, #8a9f28 0%, #547f14 100%);
+    border-top: 1px solid #b1c72b;
+    box-shadow: 0px -1px 0px #8a9f28;
     padding: 10px;
 }
 
