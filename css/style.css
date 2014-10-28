@@ -371,6 +371,10 @@ h2, .h2 {
     -moz-box-shadow: 0 5px 0 #b9592a;
     -webkit-box-shadow: 0 5px 0 #b9592a;
     box-shadow: 0 5px 0 #b9592a;
+	transition: background-color 2s, box-shadow 2s;
+	-webkit-transition: background-color 2s, box-shadow 2s;
+	-moz-transition: background-color 2s, box-shadow 2s;
+	
 }
 
 /* стила за формите в contacts.html */
@@ -433,6 +437,9 @@ input[type=radio] {
 }
 .submitBtn:hover {
     background-color: #912900;
+	transition: background-color 2s;
+	-moz-transition: background-color 2s;
+	-webkit-transition: background-color 2s;
 }
 
 #map-frame {
