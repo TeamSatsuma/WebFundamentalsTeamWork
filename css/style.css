@@ -63,9 +63,11 @@ article {
     overflow: hidden;
 }
 
-article h3 {
+article h3, .h3 {
     font-family: 'Marck Script', cursive;
     text-shadow: 4px 4px 4px #aaa;
+    font-size: 1.2em;
+    font-weight: bold;
 }
 
 /* Navigation menu behaviour - start */
@@ -87,7 +89,7 @@ nav ul:after {
 }
 nav ul li {
     float: left;
-    word-break: break-word;
+    word-wrap: break-word;
 }
 nav ul li:hover {
     background: #B9B1A8;
@@ -219,7 +221,9 @@ nav ul ul li:hover {
 }
 
 .searchPage #googleFrame {
-    margin-left: 10%;
+    margin: 0 auto;
+    width: 100%;
+    border: none;
 }
 
 #mainFooter {
@@ -229,6 +233,21 @@ nav ul ul li:hover {
 
 #mainFooter p, #mainFooter.wrapper span {
     color: white;
+}
+
+.html5, .css3 {
+    display: block;
+    width: 82px;
+    height: 17px;
+    margin: 10px auto 0;
+}
+.html5 {
+    background-image: url(../img/html5valid.png);
+    background-repeat: no-repeat;
+}
+.css3 {
+    background-image: url(../img/css3valid.png);
+    background-repeat: no-repeat;
 }
 
 .clearfix:after {
@@ -264,7 +283,6 @@ nav ul ul li:hover {
 #waitingGif {
     vertical-align: bottom;
     border-radius: 50%;
-    margin-left: 22%;
     width: 40px;
     height: 40px;
 }
@@ -286,10 +304,12 @@ nav ul ul li:hover {
     height: 200px;
 }
 
-h2 {
+h2, .h2 {
     font-family: 'Poiret One', cursive;
     color: #912900;
     text-shadow: 4px 4px 4px #aaa;
+    font-size: 1.5em;
+    font-weight: bold;
 }
 
 #footerLink {
@@ -744,8 +764,8 @@ input[type=radio] {
 		position: static;
 	}
 	nav ul ul li:last-of-type {
-		border-bottom-left-radius: none;
-		border-bottom-right-radius: none;
+		border-bottom-left-radius: 0;
+		border-bottom-right-radius: 0;
 	}
     #mainNav > ul > li {
         clear: both;
@@ -827,8 +847,8 @@ input[type=radio] {
 		position: static;
 	}
 	nav ul ul li:last-of-type {
-		border-bottom-left-radius: none;
-		border-bottom-right-radius: none;
+		border-bottom-left-radius: 0;
+		border-bottom-right-radius: 0;
 	}
     #mainNav > ul > li {
         clear: both;
@@ -899,8 +919,8 @@ input[type=radio] {
 	    position: static;
 	}
 	nav ul ul li:last-of-type {
-		border-bottom-left-radius: none;
-		border-bottom-right-radius: none;
+		border-bottom-left-radius: 0;
+		border-bottom-right-radius: 0;
 	}
     #mainNav > ul > li {
         clear: both;
@@ -983,8 +1003,8 @@ input[type=radio] {
 		position: static;
 	}
 	nav ul ul li:last-of-type {
-		border-bottom-left-radius: none;
-		border-bottom-right-radius: none;
+		border-bottom-left-radius: 0;
+		border-bottom-right-radius: 0;
 	}
     #mainNav > ul > li {
         clear: both;
