@@ -219,7 +219,7 @@ nav ul ul li:hover {
 }
 
 #mainFooter {
-    background-color: #4B4D52;
+    background: linear-gradient(to bottom, #8a9f28 0%, #547f14 100%);
     padding: 10px;
 }
 
