@@ -71,6 +71,9 @@ article h3, .h3 {
 }
 
 /* Navigation menu behaviour - start */
+.bx-controls-direction {
+	opacity: 0.5;
+}
 nav ul ul {
     display: none;
 }
@@ -762,6 +765,9 @@ input[type=radio] {
     }
 	.dropit .dropit-submenu {
 		position: static;
+	}
+	.bx-controls-direction {
+		display: none;
 	}
 	nav ul ul li:last-of-type {
 		border-bottom-left-radius: 0;
