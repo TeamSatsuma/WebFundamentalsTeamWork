@@ -87,6 +87,7 @@ nav ul:after {
 }
 nav ul li {
     float: left;
+    word-break: break-word;
 }
 nav ul li:hover {
     background: #B9B1A8;
@@ -112,7 +113,7 @@ nav ul ul {
 }
 nav ul ul li {
     float: none;
-    border-bottom: 1px solid #D0CABF;
+    border-top: 1px solid #D0CABF;
     position: relative;
 }
 nav ul ul li:last-of-type {
@@ -213,7 +214,6 @@ nav ul ul li:hover {
 
 .searchPage #searchSection #searchResults {
     margin-left: 10%;
-    font-size: 14pt;
     font-style: italic;
     color: #912900;
 }
@@ -271,7 +271,7 @@ nav ul ul li:hover {
 
 #quote {
     font-style: italic;
-    font-size: 16pt;
+    font-size: 1.3em;
     margin-left: 63%;
     color: #cd3500;
 }
@@ -501,7 +501,7 @@ input[type=radio] {
     text-decoration: none;
     font-size: 1.2em;
     color: black;
-    margin: 0px 5px;
+    margin: 0 5px;
 }
 
 .trainersPage #mainSection article, .educationPage #mainSection article {
@@ -511,12 +511,8 @@ input[type=radio] {
     padding: 15px;
     margin: 5px 10px;
 }
-.trainersPage #mainSection article div {
-    height: 9em;
-}
 
 .trainersPage #mainSection #mainSection section, .educationPage #mainSection #mainSection section {
-    padding: 5px;
     border-radius: 20px;
     padding: 0 15px 15px 15px;
     width: 75%;
@@ -582,7 +578,6 @@ input[type=radio] {
 #partners-container {
     padding: 2%;
     margin: 2%;
-    min-height: 600px;
     max-width: 100%;
     min-width: 190px;
     border: 2px solid #bfb9ae;
@@ -591,8 +586,8 @@ input[type=radio] {
 }
 
 .partner-section {
-    min-width: 99%;
-    min-height: 200px;
+    width: 100%;
+    box-sizing: border-box;
     display: inline-block;
     border-bottom-left-radius: 20px;
 }
@@ -639,18 +634,17 @@ input[type=radio] {
 }
 
 .partner {
-    margin-left: 2%;
+    box-sizing: border-box;
     padding: 2%;
     min-height: 130px;
-    min-width: 350px;
-    width: 43%;
+    width: 50%;
     display: inline-block;
     float: left;
 }
 
 .partner img {
     border-radius: 4px;
-    max-width: 360px;
+    max-width: 100%;
     max-height: 120px;
 }
 
@@ -660,21 +654,16 @@ input[type=radio] {
 /*WORK PAGE STYLING START*/
 
 .construction {
-    width: 600px;
-    height: 313px;
+    width: 60%;
     float: left;
     margin-right: 4%;
-    margin-bottom: 10%;
-    margin-top: 3%;
+    margin-bottom: 40px;
 }
 
 .workPage #work-under-construction {
-    font-size: 1.3rem;;
-    display: inline-block;
-    max-width: 320px;
+    font-size: 1.8em;
     font-style: italic;
     color: #912900;
-    margin-top: 3%;
     overflow: hidden;
 }
 
@@ -691,6 +680,7 @@ input[type=radio] {
 /* CSS Styles for extra large screens */
 @media only screen and (min-width: 1600px) {
     body {
+        font-size: 14px;
 
     }
     .wrapper {
@@ -700,23 +690,23 @@ input[type=radio] {
 }
 
 /* CSS Styles for smaller screens */
-@media only screen and (min-width: 960px) and (max-width: 1024px) {
+@media only screen and (max-width: 1024px) {
     body {
     }
     .wrapper {
         max-width: 1024px;
-	    min-width: 960px;
+	    min-width: 930px;
     }
 
 }
 
 /* CSS Styles for tablets */
-@media only screen and (min-width: 768px) and (max-width: 960px) {
+@media only screen and (max-width: 960px) {
     body {
     }
     .wrapper {
 	    max-width: 960px;
-        min-width: 768px;
+        min-width: 740px;
     }
     #mainNav {
         clear: both;
@@ -736,12 +726,12 @@ input[type=radio] {
 }
 
 /* CSS Styles for smaller tablets */
-@media only screen and (min-width: 640px) and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
     body {
     }
     .wrapper {
 	    max-width: 768px;
-        min-width: 640px;
+        min-width: 610px;
     }
     #mainNav {
         clear: both;
@@ -752,7 +742,6 @@ input[type=radio] {
     }
 	.dropit .dropit-submenu {
 		position: static;
-		border
 	}
 	nav ul ul li:last-of-type {
 		border-bottom-left-radius: none;
@@ -791,39 +780,41 @@ input[type=radio] {
 	.contactsPage #map-frame section {
 	    margin-top: 1em;
 	    position: static;
+        width: auto;
 	}
 	.trainersPage #mainSection div section article header h1 {
 		font-size : 1.5em;
-		margin : 0em, auto;
+		margin : 0 auto;
 	}
 	.trainersPage #mainSection div section article header h2 {
-		font-size : 5;
-		margin : 0em, auto;
-	}
-	.trainersPage #mainSection article div {
-		height: 10em;
+		font-size : 1.2em;
+		margin : 0 auto;
 	}
 	.trainersPage #mainSection article header, .educationPage #mainSection article header {
-		padding: 0px;
+		padding: 0;
 		margin: 0;
 		font-size: 1.5em;
 	}
 	.construction {
-	    width: 95%;
-	}
-	.construction div img {
 	    width: 100%;
 	}
+	.construction div img {
+	    max-width: 100%;
+	}
+    .workPage #work-under-construction {
+        display: block;
+        clear: both;
+    }
 
 }
 
 /* CSS Styles for mobile phones */
-@media only screen and (min-width: 480px) and (max-width: 640px) {
+@media only screen and (max-width: 640px) {
     body {
     }
     .wrapper {
         max-width: 640px;
-        min-width: 480px;
+        min-width: 450px;
     }
     #mainNav {
         clear: both;
@@ -834,7 +825,6 @@ input[type=radio] {
     }
 	.dropit .dropit-submenu {
 		position: static;
-		border
 	}
 	nav ul ul li:last-of-type {
 		border-bottom-left-radius: none;
@@ -860,7 +850,7 @@ input[type=radio] {
     }
 
     .contactsPage #bottomForm {
-	    width: 470px;
+	    width: 100%;
     }
 	.contactsPage #map-frame {
 	    position: static;
@@ -876,36 +866,27 @@ input[type=radio] {
 	}
 	.trainersPage #mainSection div section article header h1 {
 		font-size : 1.5em;
-		margin : 0em, auto;
+		margin : 0 auto;
 	}
 	.trainersPage #mainSection div section article header h2 {
 		font-size : 1.2em;
-		margin : 0em, auto;
-	}
-	.trainersPage #mainSection article div {
-		height: 14em;
+		margin : 0 auto;
 	}
 	.trainersPage #mainSection article header, .educationPage #mainSection article header {
-		padding: 0px;
+		padding: 0;
 		margin: 0;
 		font-size: 1.5em;
-	}
-	.construction {
-	    width: 95%;
-	}
-	.construction div img {
-	    width: 100%;
 	}
 
 }
 
 /* CSS Styles for medium mobile phones */
-@media only screen and (min-width: 320px) and (max-width: 480px) {
+@media only screen and (max-width: 480px) {
     body {
     }
     .wrapper {
-	max-width: 480px;
-        min-width: 320px;
+	    max-width: 480px;
+        min-width: 290px;
     }
     #mainNav {
         clear: both;
@@ -916,7 +897,6 @@ input[type=radio] {
     }
 	.dropit .dropit-submenu {
 	    position: static;
-	    border
 	}
 	nav ul ul li:last-of-type {
 		border-bottom-left-radius: none;
@@ -940,12 +920,17 @@ input[type=radio] {
         height: auto;
         max-height: 200px;
     }
-    
+    .fast-tracksPage img {
+        width: 100%;
+    }
+    #topForm {
+        width: 100%;
+    }
     .contactsPage #bottomForm {
-	    width: 300px;
+	    width: 100%;
     }
 	.contactsPage .field textarea {
-	    width: 300px;
+	    width: 100%;
 	    height: 100px;
 	}
 	.contactsPage #map-frame {
@@ -962,26 +947,20 @@ input[type=radio] {
 	}
 	.trainersPage #mainSection div section article header h1 {
 		font-size : 1.5em;
-		margin : 0em, auto;
+		margin : 0 auto;
 	}
 	.trainersPage #mainSection div section article header h2 {
-		font-size : 5;
-		margin : 0em, auto;
-	}
-	.trainersPage #mainSection article div {
-		height: 25em;
+		font-size : 1.2em;
+		margin : 0 auto;
 	}
 	.trainersPage #mainSection article header, .educationPage #mainSection article header {
-		padding: 0px;
+		padding: 0;
 		margin: 0;
 		font-size: 1.5em;
 	}
-	.construction {
-	    width: 95%;
-	}
-	.construction div img {
-	    width: 100%;
-	}
+    .partner {
+        width: 100%;
+    }
 
 }
 
@@ -991,7 +970,7 @@ input[type=radio] {
     }
     .wrapper {
 	    max-width: 320px;
-        min-width: 240px;
+        min-width: 210px;
     }
     #mainNav {
         clear: both;
@@ -1002,7 +981,6 @@ input[type=radio] {
     }
 	.dropit .dropit-submenu {
 		position: static;
-		border
 	}
 	nav ul ul li:last-of-type {
 		border-bottom-left-radius: none;
@@ -1027,11 +1005,15 @@ input[type=radio] {
         max-height: 200px;
     }
     
+    .contactsPage #topForm {
+	    width: 100%;
+    }     
+
     .contactsPage #bottomForm {
-	    width: 300px;
+	    width: auto;
     }     
 	.contactsPage .field textarea {
-	    width: 250px;
+	    width: 100%;
 	    height: 100px;
 	}
 	.contactsPage #map-frame {
@@ -1048,25 +1030,16 @@ input[type=radio] {
 	}
 	.trainersPage #mainSection div section article header h1 {
 		font-size : 1.1em;
-		margin : 0em, auto;
+		margin : 0 auto;
 	}
 	.trainersPage #mainSection div section article header h2 {
-		font-size : 1;
-		margin : 0em, auto;
-	}
-	.trainersPage #mainSection article div {
-		height: 32em;
+		font-size : 1.2em;
+		margin : 0 auto;
 	}
 	.trainersPage #mainSection article header, .educationPage #mainSection article header {
-		padding: 0px;
+		padding: 0;
 		margin: 0;
 		font-size: 1.1em;
-	}
-	.construction {
-	    width: 95%;
-	}
-	.construction div img {
-	    width: 100%;
 	}
 
 }
